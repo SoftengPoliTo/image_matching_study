@@ -1,0 +1,366 @@
+---
+title: "RQ2 analysis"
+output:
+  pdf_document: 
+    keep_tex:  yes
+  html_document: default
+  header-includes:
+   - \usepackage{booktabs}
+   - \usepackage{caption}
+---
+
+
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(ggplot2)
+library(knitr)
+library(lmPerm)
+library(rcompanion)
+library(ggpubr)
+
+
+ggplot2::update_geom_defaults("bar", list(fill = "steelblue",color=NA))
+ggplot2::update_geom_defaults("point", list(color = "steelblue",color=NA))
+ggplot2::update_geom_defaults("violin", list(fill = "steelblue",color="navy"))
+visual_data = read.csv("visual_csv_results2_all.csv",header=TRUE,sep=";",stringsAsFactors = TRUE);
+rq1_data = read.csv("results_new_tutti_2.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
+rq1_data$descriptor_mode=paste(rq1_data$descriptor,rq1_data$mode,sep=".")
+
+
+visual_data$percentage_interactions <- visual_data$interactions / visual_data$interaction_number
+visual_data$percentage_locators <- visual_data$locators / visual_data$locator_number
+visual_data$percentage_tests <- visual_data$tests / 30
+
+names(visual_data)[names(visual_data) == "ï..technique"] <- "technique"
+
+
+visual_data$mode <- rep(NA, nrow(visual_data))
+visual_data[visual_data$technique == "eyeautomate", ][, "mode"] <- "VGT tool"
+visual_data[visual_data$technique == "sikuli", ][, "mode"] <- "VGT tool"
+visual_data[visual_data$technique == "akaze_cropped", ][, "mode"] <- "Cropped"
+visual_data[visual_data$technique == "sift_cropped", ][, "mode"] <- "Cropped"
+visual_data[visual_data$technique == "surf_cropped", ][, "mode"] <- "Cropped"
+visual_data[visual_data$technique == "akaze_fullscreen", ][, "mode"] <- "Fullscreen"
+visual_data[visual_data$technique == "sift_fullscreen", ][, "mode"] <- "Fullscreen"
+visual_data[visual_data$technique == "surf_fullscreen", ][, "mode"] <- "Fullscreen"
+
+
+
+rq2_average = visual_data %>% group_by(technique) %>%
+      summarise(mean_interactions=mean(percentage_interactions), std_interactions=sd(percentage_interactions), mean_locators=mean(percentage_locators), std_locators=sd(percentage_locators), mean_test=mean(percentage_tests), std_test=sd(percentage_tests), mean_time=mean(found.time, na.rm=TRUE), std_time=sd(found.time, na.rm=TRUE))
+
+
+
+
+rq1_average = rq1_data %>% group_by(descriptor,mode,source.device, target.device) %>%
+      summarise(mean_precision=mean(precision), mean_recall=mean(recall), mean_time=mean(time, na.rm=TRUE))
+
+
+
+
+```
+
+
+
+
+## Results
+
+```{r rq1 boxplots, fig.height= 5, fig.width=6, echo=FALSE, include=FALSE}
+
+
+rq1_data %>%
+  ggplot(aes(fill=mode, y=recall, x=interaction(descriptor,mode))) +
+  scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
+    facet_wrap(~source.device) +
+  
+  geom_boxplot(outlier.alpha = 0.2) +  ylim(0,1) + 
+      theme(legend.position="none") +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+    scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+
+rq1_data %>%
+  ggplot(aes(fill=mode, y=precision, x=interaction(descriptor,mode))) +
+    scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
+    facet_wrap(~source.device) +
+  geom_boxplot(outlier.alpha = 0.2) +  ylim(0,1) +
+      theme(legend.position="none") +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+    scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+rq1_data %>%
+  ggplot(aes(fill=mode, y=time, x=interaction(descriptor,mode))) +
+    scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
+    facet_wrap(~source.device) +
+  geom_boxplot(outlier.alpha = 0.2) +
+      theme(legend.position="none") +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+    scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+
+
+#se consideriamo prima un grouping con le medie per descriptor, modalità, source, target (in questo modo otteniamo 13 valori per ciascuna coppia di target e di quelli si fa il boxplot)
+
+# rq1_average %>%
+#   ggplot(aes(fill=source.device, y=mean_recall, x=interaction(descriptor,mode))) +
+#     facet_wrap(~source.device) +
+#   geom_boxplot() +  ylim(0,1) +
+#     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+# 
+# rq1_average %>%
+#   ggplot(aes(fill=source.device, y=mean_precision, x=interaction(descriptor,mode))) +
+#     facet_wrap(~source.device) +
+#   geom_boxplot() + ylim(0,1) +
+#     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1));
+# 
+
+
+
+gc()
+```
+```{r anova precision, fig.height= 5, fig.width=7, echo=FALSE, include=FALSE}
+
+
+#summary(aovp(precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
+
+
+#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
+
+#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
+
+gc()
+
+
+
+```
+
+
+
+```{r anova recall, fig.height= 5, fig.width=7, echo=FALSE}
+
+
+#summary(aovp(recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
+
+
+#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
+
+#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
+
+gc()
+
+
+
+```
+
+```{r pairwise permutation test recall, fig.height= 5, fig.width=7, echo=FALSE, include=FALSE}
+
+
+pairwisePermutationTest(precision ~ descriptor_mode,
+                             data = rq1_data,
+                             method="fdr")
+
+pairwisePermutationTest(recall ~ descriptor_mode,
+                             data = rq1_data,
+                             method="fdr")
+
+
+gc()
+
+```
+
+
+
+```{r boxplots rq2, fig.height= 5, fig.width=6, echo=FALSE}
+level_order <- c("eyeautomate", "sikuli", "akaze_cropped", "sift_cropped", "surf_cropped", "akaze_fullscreen", "sift_fullscreen",  "surf_fullscreen")
+
+
+rq2_average
+
+my_comparisons <- list( c("eyeautomate", "akaze_cropped"), c("eyeautomate", "sift_cropped"), c("eyeautomate", "surf_cropped"), c("sikuli", "akaze_fullscreen"), c("eyeautomate", "sift_fullscreen"), c("eyeautomate", "surf_fullscreen") )
+
+
+# visual_data %>%
+#   ggplot(aes(y=percentage_interactions, x = factor(technique, level = level_order))) +     
+#   facet_grid(source ~ .) +
+#   geom_violin(color="navy")+
+# 
+#     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+#     xlab("Technique") +
+#     ylab("Distribution of correctly executed interactions") +
+#     scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'AKAZE - Fullscreen', 'SIFT - Cropped', 'SIFT - Fullscreen', 'SURF - Cropped', 'SURF - Fullscreen'))
+
+
+
+bp_interactions = visual_data %>%
+  ggplot(aes(fill=mode, y=percentage_interactions, x = factor(technique, level = level_order))) +     
+    facet_wrap(~source) +
+   
+
+    geom_boxplot(outlier.alpha = 0.3) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+      scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
+    xlab("Technique") +
+    ylab("Correctly executed interactions") +
+    theme(legend.position="none") +
+    scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+bp_interactions #+ stat_compare_means(comparisons= my_comparisons) # Add pairwise comparisons p-value
+
+
+
+
+
+bp_locators = visual_data %>%
+  ggplot(aes(fill=mode, y=percentage_locators, x = factor(technique, level = level_order))) +     
+    #facet_wrap(~source) +
+
+    geom_boxplot(outlier.alpha = 0.3) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+      scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
+    xlab("Technique") +
+    ylab("Found locators") +
+    theme(legend.position="none") +
+    scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+bp_locators
+
+#bp_locators + stat_compare_means(comparisons= my_comparisons) # Add pairwise comparisons p-value
+
+
+
+
+
+
+
+
+visual_data %>%
+  ggplot(aes(fill=mode, y=percentage_tests, x = factor(technique, level = level_order))) +     
+  #  facet_wrap(~source) +
+
+    geom_boxplot(outlier.alpha = 0.3) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+      scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
+    xlab("Technique") +
+    ylab("Passing tests") +
+    theme(legend.position="none") +
+    scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+
+
+visual_data %>%
+  ggplot(aes(fill=mode, y=found.time, x = factor(technique, level = level_order))) +     
+    #facet_wrap(~source) +
+
+    geom_boxplot() +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+        scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
+    theme(legend.position="none") +
+
+    xlab("Technique") +
+    ylab("Times for correct interaction") + 
+    scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+
+scaley_names_rev=c('SURF - Fullscreen', 'SIFT - Fullscreen', 'AKAZE - Fullscreen', 'SURF - Cropped', 'SIFT - Cropped', 'AKAZE - Cropped', 'Sikuli', 'EyeAutomate')
+
+level_order_rev <- c("surf_fullscreen", "sift_fullscreen", "akaze_fullscreen", "surf_cropped", "sift_cropped", "akaze_cropped", "sikuli", "eyeautomate")
+
+names(visual_data)[names(visual_data) == "percentage_locators"] <- "Percentage of found locators"
+
+ggplot(visual_data %>% filter(technique=="sift_fullscreen"), aes(y = source, x=target, fill=`Percentage of found locators`)) + 
+  geom_tile() +
+      scale_fill_gradient(low="#f4eeff", high="#424874") +
+
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  xlab("Target device") +
+  theme(legend.position="top") +
+  ylab("Source device")
+ # scale_y_discrete(labels = scaley_names_rev)
+
+names(visual_data)[names(visual_data) == "Percentage of found locators"] <- "percentage_locators"
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interaction correlation with source, technique and target
+
+```{r interactions correlation}
+
+
+
+summary(aovp(percentage_interactions ~ app, data=visual_data))
+summary(aovp(percentage_interactions ~ technique + source + target*source ,data=visual_data))
+
+
+
+pairwisePermutationTest(interactions ~ technique,
+                             data = visual_data,
+                             method="fdr")
+```
+
+Locators correlation with source, technique and target
+
+
+```{r locators correlation}
+
+names(visual_data)[names(visual_data) == "Percentage of found locators"] <- "percentage_locators"
+
+summary(aovp(percentage_locators ~  app,data=visual_data))
+summary(aovp(percentage_locators ~ technique + source + target*source ,data=visual_data))
+
+PT = pairwisePermutationTest(locators ~ technique,
+                             data = visual_data,
+                             method="fdr")
+
+PT
+
+
+```
+
+
+Tests correlation with source, technique and target
+
+
+```{r tests correlation}
+
+names(visual_data)[names(visual_data) == "Percentage of passing tests"] <- "percentage_tests"
+
+summary(aovp(percentage_tests ~  technique + source + target + target*source,data=visual_data))
+summary(aovp(percentage_tests ~  app, data=visual_data))
+
+pairwisePermutationTest(tests ~ technique,
+                             data = visual_data,
+                             method="fdr")
+
+
+
+summary(aovp(found.time ~  technique + source + target + target*source,data=visual_data))
+summary(aovp(found.time ~  app ,data=visual_data))
+
+
+
+pairwisePermutationTest(found.time ~ technique,
+                             data = visual_data,
+                             method="fdr")
+
+```
+
+
