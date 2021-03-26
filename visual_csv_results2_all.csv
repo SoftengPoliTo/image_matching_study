@@ -1,673 +1,673 @@
 ﻿technique;source;target;interaction_number;locator_number;interactions;locators;tests;found time;app
-eyeautomate;Nexus5;Nexus5;234;77;215;75;15;396;antennapod
-eyeautomate;Nexus5;Nexus5x;234;77;116;39;0;503;antennapod
-eyeautomate;Nexus5;Pixel 2xl;234;77;106;48;0;267;antennapod
-eyeautomate;Nexus5;Pixel;234;77;88;36;0;199;antennapod
-eyeautomate;Nexus5;Pixel XL;234;77;125;44;0;193;antennapod
-eyeautomate;Nexus5;Pixel 3XL;234;77;102;47;1;267;antennapod
-eyeautomate;Nexus5;Nexus 4;234;77;216;68;18;325;antennapod
-eyeautomate;Nexus5;Nexus S;234;77;148;51;2;314;antennapod
-eyeautomate;Nexus5;Pixel 3a XL;234;77;102;26;0;399;antennapod
-eyeautomate;Nexus5;Nexus 6;234;77;137;37;0;263;antennapod
-eyeautomate;Nexus5;Nexus 6p;234;77;91;40;0;233;antennapod
-eyeautomate;Nexus5;Pixel 2;234;77;144;41;0;337;antennapod
-eyeautomate;Nexus5;Pixel 3;234;77;182;54;4;428;antennapod
-eyeautomate;Nexus5;Pixel 3A;234;77;165;59;2;302;antennapod
-eyeautomate;Nexus S;Nexus5;234;77;136;48;0;270;antennapod
-eyeautomate;Nexus S;Nexus5x;234;77;53;22;1;201;antennapod
-eyeautomate;Nexus S;Pixel 2xl;234;77;42;22;0;198;antennapod
-eyeautomate;Nexus S;Pixel;234;77;36;17;0;303;antennapod
-eyeautomate;Nexus S;Pixel XL;234;77;53;18;0;161;antennapod
-eyeautomate;Nexus S;Pixel 3XL;234;77;36;15;0;394;antennapod
-eyeautomate;Nexus S;Nexus 4;234;77;59;31;0;239;antennapod
-eyeautomate;Nexus S;Nexus S;234;77;220;76;18;362;antennapod
-eyeautomate;Nexus S;Pixel 3a XL;234;77;43;23;1;357;antennapod
-eyeautomate;Nexus S;Nexus 6;234;77;41;17;0;156;antennapod
-eyeautomate;Nexus S;Nexus 6p;234;77;28;13;0;263;antennapod
-eyeautomate;Nexus S;Pixel 2;234;77;60;29;0;550;antennapod
-eyeautomate;Nexus S;Pixel 3;234;77;63;31;0;548;antennapod
-eyeautomate;Nexus S;Pixel 3A;234;77;82;24;0;230;antennapod
-eyeautomate;Pixel 3;Nexus5;234;77;153;58;2;269;antennapod
-eyeautomate;Pixel 3;Nexus5x;234;77;195;64;6;461;antennapod
-eyeautomate;Pixel 3;Pixel 2xl;234;77;187;71;1;479;antennapod
-eyeautomate;Pixel 3;Pixel;234;77;140;60;2;369;antennapod
-eyeautomate;Pixel 3;Pixel XL;234;77;159;68;3;547;antennapod
-eyeautomate;Pixel 3;Pixel 3XL;234;77;177;66;2;748;antennapod
-eyeautomate;Pixel 3;Nexus 4;234;77;187;73;2;519;antennapod
-eyeautomate;Pixel 3;Nexus S;234;77;122;51;0;932;antennapod
-eyeautomate;Pixel 3;Pixel 3a XL;234;77;130;47;1;414;antennapod
-eyeautomate;Pixel 3;Nexus 6;234;77;158;70;1;535;antennapod
-eyeautomate;Pixel 3;Nexus 6p;234;77;173;65;3;693;antennapod
-eyeautomate;Pixel 3;Pixel 2;234;77;131;65;1;486;antennapod
-eyeautomate;Pixel 3;Pixel 3;234;77;217;75;15;413;antennapod
-eyeautomate;Pixel 3;Pixel 3A;234;77;214;73;13;642;antennapod
-sikuli;Nexus5;Nexus5;234;77;226;73;23;272;antennapod
-sikuli;Nexus5;Nexus5x;234;77;80;14;0;240;antennapod
-sikuli;Nexus5;Pixel 2xl;234;77;65;11;0;245;antennapod
-sikuli;Nexus5;Pixel;234;77;84;15;0;228;antennapod
-sikuli;Nexus5;Pixel XL;234;77;83;15;0;237;antennapod
-sikuli;Nexus5;Pixel 3XL;234;77;65;12;0;260;antennapod
-sikuli;Nexus5;Nexus 4;234;77;96;22;0;267;antennapod
-sikuli;Nexus5;Nexus S;234;77;66;15;0;240;antennapod
-sikuli;Nexus5;Pixel 3a XL;234;77;57;6;0;259;antennapod
-sikuli;Nexus5;Nexus 6;234;77;67;13;0;266;antennapod
-sikuli;Nexus5;Nexus 6p;234;77;81;14;0;269;antennapod
-sikuli;Nexus5;Pixel 2;234;77;85;15;0;267;antennapod
-sikuli;Nexus5;Pixel 3;234;77;93;20;0;254;antennapod
-sikuli;Nexus5;Pixel 3A;234;77;91;20;0;256;antennapod
-sikuli;Nexus S;Nexus5;234;77;68;10;0;260;antennapod
-sikuli;Nexus S;Nexus5x;234;77;35;5;0;320;antennapod
-sikuli;Nexus S;Pixel 2xl;234;77;33;4;0;231;antennapod
 sikuli;Nexus S;Pixel;234;77;29;3;0;233;antennapod
-sikuli;Nexus S;Pixel XL;234;77;56;5;0;247;antennapod
 sikuli;Nexus S;Pixel 3XL;234;77;30;3;0;633;antennapod
-sikuli;Nexus S;Nexus 4;234;77;54;4;0;247;antennapod
-sikuli;Nexus S;Nexus S;234;77;233;76;29;252;antennapod
-sikuli;Nexus S;Pixel 3a XL;234;77;34;6;0;232;antennapod
 sikuli;Nexus S;Nexus 6;234;77;30;3;0;226;antennapod
 sikuli;Nexus S;Nexus 6p;234;77;29;3;0;393;antennapod
+sikuli;Nexus S;Pixel 2xl;234;77;33;4;0;231;antennapod
+sikuli;Nexus S;Nexus 4;234;77;54;4;0;247;antennapod
 sikuli;Nexus S;Pixel 2;234;77;30;4;0;340;antennapod
-sikuli;Nexus S;Pixel 3;234;77;54;5;0;281;antennapod
 sikuli;Nexus S;Pixel 3A;234;77;54;4;0;345;antennapod
-sikuli;Pixel 3;Nexus5;234;77;91;14;0;306;antennapod
-sikuli;Pixel 3;Nexus5x;234;77;103;23;0;352;antennapod
-sikuli;Pixel 3;Pixel 2xl;234;77;111;28;0;280;antennapod
-sikuli;Pixel 3;Pixel;234;77;102;23;1;547;antennapod
-sikuli;Pixel 3;Pixel XL;234;77;109;27;0;344;antennapod
-sikuli;Pixel 3;Pixel 3XL;234;77;114;28;0;503;antennapod
-sikuli;Pixel 3;Nexus 4;234;77;145;39;0;389;antennapod
-sikuli;Pixel 3;Nexus S;234;77;42;9;0;475;antennapod
-sikuli;Pixel 3;Pixel 3a XL;234;77;90;17;0;343;antennapod
-sikuli;Pixel 3;Nexus 6;234;77;107;25;0;489;antennapod
-sikuli;Pixel 3;Nexus 6p;234;77;108;27;0;533;antennapod
-sikuli;Pixel 3;Pixel 2;234;77;110;28;0;574;antennapod
-sikuli;Pixel 3;Pixel 3;234;77;230;75;26;292;antennapod
-sikuli;Pixel 3;Pixel 3A;234;77;229;74;25;565;antennapod
-akaze_fullscreen;Nexus5;Nexus5;234;77;234;77;30;6896;antennapod
-akaze_fullscreen;Nexus5;Nexus5x;234;77;226;76;23;3881;antennapod
-akaze_fullscreen;Nexus5;Pixel 2xl;234;77;219;71;17;2953;antennapod
-akaze_fullscreen;Nexus5;Pixel;234;77;227;75;23;2609;antennapod
-akaze_fullscreen;Nexus5;Pixel XL;234;77;227;75;24;3312;antennapod
-akaze_fullscreen;Nexus5;Pixel 3XL;234;77;221;72;18;3310;antennapod
-akaze_fullscreen;Nexus5;Nexus 4;234;77;231;76;28;3115;antennapod
-akaze_fullscreen;Nexus5;Nexus S;234;77;229;75;26;1190;antennapod
-akaze_fullscreen;Nexus5;Pixel 3a XL;234;77;227;75;25;2312;antennapod
-akaze_fullscreen;Nexus5;Nexus 6;234;77;228;74;24;4938;antennapod
-akaze_fullscreen;Nexus5;Nexus 6p;234;77;229;75;25;5175;antennapod
-akaze_fullscreen;Nexus5;Pixel 2;234;77;225;75;21;2376;antennapod
-akaze_fullscreen;Nexus5;Pixel 3;234;77;232;76;28;2649;antennapod
-akaze_fullscreen;Nexus5;Pixel 3A;234;77;230;74;26;2549;antennapod
-akaze_fullscreen;Nexus S;Nexus5;234;77;219;73;19;1115;antennapod
-akaze_fullscreen;Nexus S;Nexus5x;234;77;201;69;11;1150;antennapod
-akaze_fullscreen;Nexus S;Pixel 2xl;234;77;212;65;15;2055;antennapod
-akaze_fullscreen;Nexus S;Pixel;234;77;207;69;14;1047;antennapod
-akaze_fullscreen;Nexus S;Pixel XL;234;77;195;62;8;1755;antennapod
-akaze_fullscreen;Nexus S;Pixel 3XL;234;77;207;61;12;1987;antennapod
-akaze_fullscreen;Nexus S;Nexus 4;234;77;219;73;19;693;antennapod
-akaze_fullscreen;Nexus S;Nexus S;234;77;233;76;29;983;antennapod
-akaze_fullscreen;Nexus S;Pixel 3a XL;234;77;217;74;16;1231;antennapod
-akaze_fullscreen;Nexus S;Nexus 6;234;77;183;64;0;1773;antennapod
-akaze_fullscreen;Nexus S;Nexus 6p;234;77;184;67;1;1847;antennapod
-akaze_fullscreen;Nexus S;Pixel 2;234;77;209;69;14;1417;antennapod
-akaze_fullscreen;Nexus S;Pixel 3;234;77;221;72;20;1242;antennapod
-akaze_fullscreen;Nexus S;Pixel 3A;234;77;224;72;23;1288;antennapod
-akaze_fullscreen;Pixel 3;Nexus5;234;77;230;76;26;2806;antennapod
-akaze_fullscreen;Pixel 3;Nexus5x;234;77;233;76;29;3825;antennapod
-akaze_fullscreen;Pixel 3;Pixel 2xl;234;77;234;77;30;4137;antennapod
-akaze_fullscreen;Pixel 3;Pixel;234;77;233;76;29;2959;antennapod
-akaze_fullscreen;Pixel 3;Pixel XL;234;77;233;77;29;3693;antennapod
-akaze_fullscreen;Pixel 3;Pixel 3XL;234;77;234;77;30;4022;antennapod
-akaze_fullscreen;Pixel 3;Nexus 4;234;77;231;75;27;2318;antennapod
-akaze_fullscreen;Pixel 3;Nexus S;234;77;214;73;15;1457;antennapod
-akaze_fullscreen;Pixel 3;Pixel 3a XL;234;77;233;76;29;2961;antennapod
-akaze_fullscreen;Pixel 3;Nexus 6;234;77;234;77;30;4021;antennapod
-akaze_fullscreen;Pixel 3;Nexus 6p;234;77;233;76;29;3493;antennapod
-akaze_fullscreen;Pixel 3;Pixel 2;234;77;232;76;28;3050;antennapod
-akaze_fullscreen;Pixel 3;Pixel 3;234;77;234;77;30;4224;antennapod
-akaze_fullscreen;Pixel 3;Pixel 3A;234;77;233;76;29;4045;antennapod
-sift_fullscreen;Nexus5;Nexus5;234;77;234;77;30;7387;antennapod
-sift_fullscreen;Nexus5;Nexus5x;234;77;230;73;27;6646;antennapod
-sift_fullscreen;Nexus5;Pixel 2xl;234;77;229;73;27;4797;antennapod
-sift_fullscreen;Nexus5;Pixel;234;77;229;74;25;4205;antennapod
-sift_fullscreen;Nexus5;Pixel XL;234;77;231;77;27;5830;antennapod
-sift_fullscreen;Nexus5;Pixel 3XL;234;77;230;74;27;5071;antennapod
-sift_fullscreen;Nexus5;Nexus 4;234;77;232;76;28;5176;antennapod
-sift_fullscreen;Nexus5;Nexus S;234;77;215;66;17;2279;antennapod
-sift_fullscreen;Nexus5;Pixel 3a XL;234;77;227;72;24;3909;antennapod
-sift_fullscreen;Nexus5;Nexus 6;234;77;229;74;26;4671;antennapod
-sift_fullscreen;Nexus5;Nexus 6p;234;77;231;75;28;9101;antennapod
-sift_fullscreen;Nexus5;Pixel 2;234;77;233;77;29;3809;antennapod
-sift_fullscreen;Nexus5;Pixel 3;234;77;232;76;28;3744;antennapod
-sift_fullscreen;Nexus5;Pixel 3A;234;77;230;74;27;3805;antennapod
-sift_fullscreen;Nexus S;Nexus5;234;77;229;75;26;2264;antennapod
-sift_fullscreen;Nexus S;Nexus5x;234;77;219;71;15;2408;antennapod
-sift_fullscreen;Nexus S;Pixel 2xl;234;77;226;75;25;3767;antennapod
-sift_fullscreen;Nexus S;Pixel;234;77;218;70;14;2263;antennapod
-sift_fullscreen;Nexus S;Pixel XL;234;77;214;74;16;3192;antennapod
-sift_fullscreen;Nexus S;Pixel 3XL;234;77;228;74;24;3784;antennapod
-sift_fullscreen;Nexus S;Nexus 4;234;77;224;74;21;1512;antennapod
-sift_fullscreen;Nexus S;Nexus S;234;77;232;76;28;1146;antennapod
-sift_fullscreen;Nexus S;Pixel 3a XL;234;77;223;74;19;2568;antennapod
-sift_fullscreen;Nexus S;Nexus 6;234;77;189;75;8;3459;antennapod
-sift_fullscreen;Nexus S;Nexus 6p;234;77;202;75;12;3501;antennapod
-sift_fullscreen;Nexus S;Pixel 2;234;77;218;71;14;3008;antennapod
-sift_fullscreen;Nexus S;Pixel 3;234;77;224;73;20;2491;antennapod
-sift_fullscreen;Nexus S;Pixel 3A;234;77;224;73;21;2632;antennapod
-sift_fullscreen;Pixel 3;Nexus5;234;77;228;74;24;3934;antennapod
-sift_fullscreen;Pixel 3;Nexus5x;234;77;231;75;27;5198;antennapod
-sift_fullscreen;Pixel 3;Pixel 2xl;234;77;234;77;30;5633;antennapod
-sift_fullscreen;Pixel 3;Pixel;234;77;232;75;28;4014;antennapod
-sift_fullscreen;Pixel 3;Pixel XL;234;77;231;77;27;5273;antennapod
-sift_fullscreen;Pixel 3;Pixel 3XL;234;77;233;77;29;5565;antennapod
-sift_fullscreen;Pixel 3;Nexus 4;234;77;232;76;28;3743;antennapod
-sift_fullscreen;Pixel 3;Nexus S;234;77;212;61;14;2892;antennapod
-sift_fullscreen;Pixel 3;Pixel 3a XL;234;77;229;73;25;4427;antennapod
-sift_fullscreen;Pixel 3;Nexus 6;234;77;229;74;26;6147;antennapod
-sift_fullscreen;Pixel 3;Nexus 6p;234;77;231;76;27;5089;antennapod
-sift_fullscreen;Pixel 3;Pixel 2;234;77;232;76;28;4162;antennapod
-sift_fullscreen;Pixel 3;Pixel 3;234;77;234;77;30;4532;antennapod
-sift_fullscreen;Pixel 3;Pixel 3A;234;77;233;76;29;4732;antennapod
-surf_fullscreen;Nexus5;Nexus5;234;77;234;77;30;5875;antennapod
-surf_fullscreen;Nexus5;Nexus5x;234;77;223;74;20;4368;antennapod
-surf_fullscreen;Nexus5;Pixel 2xl;234;77;218;71;16;5009;antennapod
-surf_fullscreen;Nexus5;Pixel;234;77;224;73;20;4956;antennapod
-surf_fullscreen;Nexus5;Pixel XL;234;77;214;73;15;5663;antennapod
-surf_fullscreen;Nexus5;Pixel 3XL;234;77;217;73;16;5683;antennapod
-surf_fullscreen;Nexus5;Nexus 4;234;77;224;77;20;3324;antennapod
-surf_fullscreen;Nexus5;Nexus S;234;77;217;74;17;2679;antennapod
-surf_fullscreen;Nexus5;Pixel 3a XL;234;77;216;69;18;4396;antennapod
-surf_fullscreen;Nexus5;Nexus 6;234;77;216;72;15;4958;antennapod
-surf_fullscreen;Nexus5;Nexus 6p;234;77;220;75;18;5331;antennapod
-surf_fullscreen;Nexus5;Pixel 2;234;77;224;75;20;4354;antennapod
-surf_fullscreen;Nexus5;Pixel 3;234;77;232;76;28;4563;antennapod
-surf_fullscreen;Nexus5;Pixel 3A;234;77;231;75;27;4396;antennapod
-surf_fullscreen;Nexus S;Nexus5;234;77;223;73;19;2504;antennapod
-surf_fullscreen;Nexus S;Nexus5x;234;77;219;72;17;2625;antennapod
-surf_fullscreen;Nexus S;Pixel 2xl;234;77;186;67;4;3816;antennapod
-surf_fullscreen;Nexus S;Pixel;234;77;216;71;18;2413;antennapod
-surf_fullscreen;Nexus S;Pixel XL;234;77;178;66;4;3516;antennapod
-surf_fullscreen;Nexus S;Pixel 3XL;234;77;196;69;6;4071;antennapod
-surf_fullscreen;Nexus S;Nexus 4;234;77;217;71;16;1553;antennapod
-surf_fullscreen;Nexus S;Nexus S;234;77;232;76;28;1683;antennapod
-surf_fullscreen;Nexus S;Pixel 3a XL;234;77;200;72;11;2832;antennapod
-surf_fullscreen;Nexus S;Nexus 6;234;77;167;66;1;3854;antennapod
-surf_fullscreen;Nexus S;Nexus 6p;234;77;171;68;3;3933;antennapod
-surf_fullscreen;Nexus S;Pixel 2;234;77;219;72;17;3128;antennapod
-surf_fullscreen;Nexus S;Pixel 3;234;77;221;73;18;2708;antennapod
-surf_fullscreen;Nexus S;Pixel 3A;234;77;220;71;17;2862;antennapod
-surf_fullscreen;Pixel 3;Nexus5;234;77;232;77;28;4643;antennapod
-surf_fullscreen;Pixel 3;Nexus5x;234;77;231;75;27;6875;antennapod
-surf_fullscreen;Pixel 3;Pixel 2xl;234;77;232;76;28;6338;antennapod
-surf_fullscreen;Pixel 3;Pixel;234;77;231;75;27;4912;antennapod
-surf_fullscreen;Pixel 3;Pixel XL;234;77;231;76;27;6099;antennapod
-surf_fullscreen;Pixel 3;Pixel 3XL;234;77;229;74;25;6550;antennapod
-surf_fullscreen;Pixel 3;Nexus 4;234;77;220;74;17;4341;antennapod
-surf_fullscreen;Pixel 3;Nexus S;234;77;215;69;15;3303;antennapod
-surf_fullscreen;Pixel 3;Pixel 3a XL;234;77;230;77;26;5004;antennapod
-surf_fullscreen;Pixel 3;Nexus 6;234;77;229;75;25;6978;antennapod
-surf_fullscreen;Pixel 3;Nexus 6p;234;77;232;76;28;5932;antennapod
-surf_fullscreen;Pixel 3;Pixel 2;234;77;230;76;27;5136;antennapod
-surf_fullscreen;Pixel 3;Pixel 3;234;77;234;77;30;6893;antennapod
-surf_fullscreen;Pixel 3;Pixel 3A;234;77;233;76;29;7404;antennapod
-akaze_cropped;Nexus5;Nexus5;234;77;222;67;20;1273;antennapod
-akaze_cropped;Nexus5;Nexus5x;234;77;189;58;10;1067;antennapod
-akaze_cropped;Nexus5;Pixel 2xl;234;77;166;47;4;1842;antennapod
-akaze_cropped;Nexus5;Pixel;234;77;196;59;12;979;antennapod
-akaze_cropped;Nexus5;Pixel XL;234;77;150;48;3;1643;antennapod
-akaze_cropped;Nexus5;Pixel 3XL;234;77;167;45;4;1756;antennapod
-akaze_cropped;Nexus5;Nexus 4;234;77;152;40;6;612;antennapod
-akaze_cropped;Nexus5;Nexus S;234;77;66;22;0;400;antennapod
-akaze_cropped;Nexus5;Pixel 3a XL;234;77;106;52;1;1196;antennapod
-akaze_cropped;Nexus5;Nexus 6;234;77;162;47;2;1621;antennapod
-akaze_cropped;Nexus5;Nexus 6p;234;77;160;48;5;1574;antennapod
-akaze_cropped;Nexus5;Pixel 2;234;77;180;59;10;1146;antennapod
-akaze_cropped;Nexus5;Pixel 3;234;77;180;61;3;1199;antennapod
-akaze_cropped;Nexus5;Pixel 3A;234;77;182;62;3;1202;antennapod
-akaze_cropped;Nexus S;Nexus5;234;77;104;24;2;893;antennapod
-akaze_cropped;Nexus S;Nexus5x;234;77;92;22;0;879;antennapod
-akaze_cropped;Nexus S;Pixel 2xl;234;77;101;22;1;1680;antennapod
-akaze_cropped;Nexus S;Pixel;234;77;92;24;0;846;antennapod
-akaze_cropped;Nexus S;Pixel XL;234;77;100;25;1;1424;antennapod
-akaze_cropped;Nexus S;Pixel 3XL;234;77;95;23;1;1633;antennapod
-akaze_cropped;Nexus S;Nexus 4;234;77;117;24;1;434;antennapod
-akaze_cropped;Nexus S;Nexus S;234;77;132;34;3;325;antennapod
-akaze_cropped;Nexus S;Pixel 3a XL;234;77;122;25;1;970;antennapod
-akaze_cropped;Nexus S;Nexus 6;234;77;109;23;1;1352;antennapod
-akaze_cropped;Nexus S;Nexus 6p;234;77;113;23;1;1520;antennapod
-akaze_cropped;Nexus S;Pixel 2;234;77;96;26;1;870;antennapod
-akaze_cropped;Nexus S;Pixel 3;234;77;122;26;2;960;antennapod
-akaze_cropped;Nexus S;Pixel 3A;234;77;119;24;2;975;antennapod
-akaze_cropped;Pixel 3;Nexus5;234;77;201;55;13;1383;antennapod
-akaze_cropped;Pixel 3;Nexus5x;234;77;176;59;3;1092;antennapod
-akaze_cropped;Pixel 3;Pixel 2xl;234;77;149;54;1;1874;antennapod
-akaze_cropped;Pixel 3;Pixel;234;77;177;60;3;1147;antennapod
-akaze_cropped;Pixel 3;Pixel XL;234;77;148;55;1;1680;antennapod
-akaze_cropped;Pixel 3;Pixel 3XL;234;77;171;54;1;1891;antennapod
-akaze_cropped;Pixel 3;Nexus 4;234;77;147;46;1;621;antennapod
-akaze_cropped;Pixel 3;Nexus S;234;77;40;19;0;365;antennapod
-akaze_cropped;Pixel 3;Pixel 3a XL;234;77;164;59;2;1192;antennapod
-akaze_cropped;Pixel 3;Nexus 6;234;77;150;55;1;1694;antennapod
-akaze_cropped;Pixel 3;Nexus 6p;234;77;146;55;1;1586;antennapod
-akaze_cropped;Pixel 3;Pixel 2;234;77;167;53;3;1129;antennapod
-akaze_cropped;Pixel 3;Pixel 3;234;77;188;62;3;1390;antennapod
-akaze_cropped;Pixel 3;Pixel 3A;234;77;187;61;3;1490;antennapod
-sift_cropped;Nexus5;Nexus5;234;77;234;77;30;2647;antennapod
-sift_cropped;Nexus5;Nexus5x;234;77;193;71;4;2430;antennapod
-sift_cropped;Nexus5;Pixel 2xl;234;77;190;68;3;3633;antennapod
-sift_cropped;Nexus5;Pixel;234;77;180;69;3;2375;antennapod
-sift_cropped;Nexus5;Pixel XL;234;77;189;68;3;3402;antennapod
-sift_cropped;Nexus5;Pixel 3XL;234;77;193;67;5;3645;antennapod
-sift_cropped;Nexus5;Nexus 4;234;77;209;69;11;1442;antennapod
-sift_cropped;Nexus5;Nexus S;234;77;164;40;2;816;antennapod
-sift_cropped;Nexus5;Pixel 3a XL;234;77;203;73;5;2637;antennapod
-sift_cropped;Nexus5;Nexus 6;234;77;193;68;3;3232;antennapod
-sift_cropped;Nexus5;Nexus 6p;234;77;190;67;3;3249;antennapod
-sift_cropped;Nexus5;Pixel 2;234;77;179;69;3;2707;antennapod
-sift_cropped;Nexus5;Pixel 3;234;77;193;69;5;2652;antennapod
-sift_cropped;Nexus5;Pixel 3A;234;77;197;70;6;2602;antennapod
-sift_cropped;Nexus S;Nexus5;234;77;222;73;19;1946;antennapod
-sift_cropped;Nexus S;Nexus5x;234;77;177;67;3;2078;antennapod
-sift_cropped;Nexus S;Pixel 2xl;234;77;176;67;2;3235;antennapod
-sift_cropped;Nexus S;Pixel;234;77;175;65;1;2083;antennapod
-sift_cropped;Nexus S;Pixel XL;234;77;175;66;1;3028;antennapod
-sift_cropped;Nexus S;Pixel 3XL;234;77;176;67;2;3588;antennapod
-sift_cropped;Nexus S;Nexus 4;234;77;203;72;6;1153;antennapod
-sift_cropped;Nexus S;Nexus S;234;77;232;76;28;739;antennapod
-sift_cropped;Nexus S;Pixel 3a XL;234;77;178;67;1;2387;antennapod
-sift_cropped;Nexus S;Nexus 6;234;77;179;68;3;3113;antennapod
-sift_cropped;Nexus S;Nexus 6p;234;77;177;67;2;2991;antennapod
-sift_cropped;Nexus S;Pixel 2;234;77;177;68;2;2068;antennapod
-sift_cropped;Nexus S;Pixel 3;234;77;176;69;1;2313;antennapod
-sift_cropped;Nexus S;Pixel 3A;234;77;174;67;0;2324;antennapod
-sift_cropped;Pixel 3;Nexus5;234;77;204;70;9;2977;antennapod
-sift_cropped;Pixel 3;Nexus5x;234;77;190;72;1;2378;antennapod
-sift_cropped;Pixel 3;Pixel 2xl;234;77;224;75;23;3597;antennapod
-sift_cropped;Pixel 3;Pixel;234;77;192;74;1;2420;antennapod
-sift_cropped;Pixel 3;Pixel XL;234;77;225;75;23;3292;antennapod
-sift_cropped;Pixel 3;Pixel 3XL;234;77;221;75;20;3815;antennapod
-sift_cropped;Pixel 3;Nexus 4;234;77;199;67;7;1369;antennapod
-sift_cropped;Pixel 3;Nexus S;234;77;149;35;1;834;antennapod
-sift_cropped;Pixel 3;Pixel 3a XL;234;77;196;67;3;2823;antennapod
-sift_cropped;Pixel 3;Nexus 6;234;77;224;75;22;3306;antennapod
-sift_cropped;Pixel 3;Nexus 6p;234;77;223;75;21;3292;antennapod
-sift_cropped;Pixel 3;Pixel 2;234;77;192;75;1;2403;antennapod
-sift_cropped;Pixel 3;Pixel 3;234;77;234;77;30;2967;antennapod
-sift_cropped;Pixel 3;Pixel 3A;234;77;233;76;29;3473;antennapod
-surf_cropped;Nexus5;Nexus5;234;77;232;76;28;2861;antennapod
-surf_cropped;Nexus5;Nexus5x;234;77;204;65;9;2287;antennapod
-surf_cropped;Nexus5;Pixel 2xl;234;77;183;63;5;3837;antennapod
-surf_cropped;Nexus5;Pixel;234;77;202;67;10;2260;antennapod
-surf_cropped;Nexus5;Pixel XL;234;77;182;65;4;3253;antennapod
-surf_cropped;Nexus5;Pixel 3XL;234;77;183;64;4;3903;antennapod
-surf_cropped;Nexus5;Nexus 4;234;77;157;46;1;1272;antennapod
-surf_cropped;Nexus5;Nexus S;234;77;147;38;2;714;antennapod
-surf_cropped;Nexus5;Pixel 3a XL;234;77;170;61;3;2591;antennapod
-surf_cropped;Nexus5;Nexus 6;234;77;178;65;2;3361;antennapod
-surf_cropped;Nexus5;Nexus 6p;234;77;180;64;5;3469;antennapod
-surf_cropped;Nexus5;Pixel 2;234;77;206;68;12;2409;antennapod
-surf_cropped;Nexus5;Pixel 3;234;77;226;73;25;2517;antennapod
-surf_cropped;Nexus5;Pixel 3A;234;77;224;73;20;2595;antennapod
-surf_cropped;Nexus S;Nexus5;234;77;176;54;8;2102;antennapod
-surf_cropped;Nexus S;Nexus5x;234;77;154;51;2;2146;antennapod
-surf_cropped;Nexus S;Pixel 2xl;234;77;98;38;0;4087;antennapod
-surf_cropped;Nexus S;Pixel;234;77;156;51;2;2208;antennapod
-surf_cropped;Nexus S;Pixel XL;234;77;92;39;0;3363;antennapod
-surf_cropped;Nexus S;Pixel 3XL;234;77;98;37;0;4050;antennapod
-surf_cropped;Nexus S;Nexus 4;234;77;155;51;3;1082;antennapod
-surf_cropped;Nexus S;Nexus S;234;77;229;74;25;677;antennapod
-surf_cropped;Nexus S;Pixel 3a XL;234;77;116;44;1;2557;antennapod
-surf_cropped;Nexus S;Nexus 6;234;77;88;37;0;3514;antennapod
-surf_cropped;Nexus S;Nexus 6p;234;77;92;42;0;3450;antennapod
-surf_cropped;Nexus S;Pixel 2;234;77;153;53;1;2133;antennapod
-surf_cropped;Nexus S;Pixel 3;234;77;171;52;3;2470;antennapod
-surf_cropped;Nexus S;Pixel 3A;234;77;171;54;5;2444;antennapod
-surf_cropped;Pixel 3;Nexus5;234;77;215;74;15;2920;antennapod
-surf_cropped;Pixel 3;Nexus5x;234;77;218;74;17;2377;antennapod
-surf_cropped;Pixel 3;Pixel 2xl;234;77;160;67;1;3767;antennapod
-surf_cropped;Pixel 3;Pixel;234;77;219;75;17;2482;antennapod
-surf_cropped;Pixel 3;Pixel XL;234;77;153;68;1;3501;antennapod
-surf_cropped;Pixel 3;Pixel 3XL;234;77;168;67;1;3894;antennapod
-surf_cropped;Pixel 3;Nexus 4;234;77;172;51;4;1287;antennapod
-surf_cropped;Pixel 3;Nexus S;234;77;132;33;0;751;antennapod
-surf_cropped;Pixel 3;Pixel 3a XL;234;77;197;66;6;2560;antennapod
-surf_cropped;Pixel 3;Nexus 6;234;77;153;68;1;3541;antennapod
-surf_cropped;Pixel 3;Nexus 6p;234;77;146;65;1;3285;antennapod
-surf_cropped;Pixel 3;Pixel 2;234;77;219;76;13;2246;antennapod
-surf_cropped;Pixel 3;Pixel 3;234;77;232;76;28;3121;antennapod
-surf_cropped;Pixel 3;Pixel 3A;234;77;231;75;27;3656;antennapod
-eyeautomate;Nexus5;Nexus5;170;52;151;46;21;405.8;passandroid
-eyeautomate;Nexus5;Nexus5x;170;52;124;33;7;450.2;passandroid
-eyeautomate;Nexus5;Pixel 2xl;170;52;116;27;3;446.9;passandroid
-eyeautomate;Nexus5;Pixel;170;52;127;29;6;456.3;passandroid
-eyeautomate;Nexus5;Pixel XL;170;52;118;29;8;379.6;passandroid
-eyeautomate;Nexus5;Pixel 3XL;170;52;125;31;5;575.3;passandroid
-eyeautomate;Nexus5;Nexus 4;170;52;135;36;11;437.2;passandroid
-eyeautomate;Nexus5;Nexus S;167;50;123;31;7;636.2;passandroid
-eyeautomate;Nexus5;Pixel 3a XL;170;52;79;25;1;845.6;passandroid
-eyeautomate;Nexus5;Nexus 6 ;170;52;108;24;1;656.7;passandroid
-eyeautomate;Nexus5;Nexus 6p;170;52;147;35;16;656.7;passandroid
-eyeautomate;Nexus5;Pixel 2;170;52;119;32;9;302.9;passandroid
-eyeautomate;Nexus5;Pixel 3;170;52;145;39;9;523.8;passandroid
-eyeautomate;Nexus5;Pixel 3A;170;52;149;39;13;638.3;passandroid
-eyeautomate;Nexus S;Nexus5;167;50;96;27;1;546.8;passandroid
-eyeautomate;Nexus S;Nexus5x;167;50;47;14;0;2021;passandroid
-eyeautomate;Nexus S;Pixel 2xl;167;50;65;22;0;756.6;passandroid
-eyeautomate;Nexus S;Pixel;167;50;40;14;0;1008.77;passandroid
-eyeautomate;Nexus S;Pixel XL;167;50;72;18;0;555.1;passandroid
-eyeautomate;Nexus S;Pixel 3XL;167;50;36;18;0;1243.6;passandroid
-eyeautomate;Nexus S;Nexus 4;167;50;75;20;0;560.2;passandroid
-eyeautomate;Nexus S;Nexus S;167;50;149;40;18;975.2;passandroid
-eyeautomate;Nexus S;Pixel 3a XL;167;50;35;13;0;1178.6;passandroid
-eyeautomate;Nexus S;Nexus 6 ;167;50;72;21;0;1249.2;passandroid
-eyeautomate;Nexus S;Nexus 6p;167;50;31;15;0;1549.8;passandroid
-eyeautomate;Nexus S;Pixel 2;167;50;41;14;0;887;passandroid
-eyeautomate;Nexus S;Pixel 3;167;50;48;16;0;623.9;passandroid
-eyeautomate;Nexus S;Pixel 3A;167;50;66;20;0;965.4;passandroid
-eyeautomate;Pixel 3;Nexus5;170;52;130;36;12;804.5;passandroid
-eyeautomate;Pixel 3;Nexus5x;170;52;152;40;16;420.9;passandroid
-eyeautomate;Pixel 3;Pixel 2xl;170;52;148;39;15;469.2;passandroid
-eyeautomate;Pixel 3;Pixel;170;52;153;41;16;683.2;passandroid
-eyeautomate;Pixel 3;Pixel XL;170;52;139;38;15;487;passandroid
-eyeautomate;Pixel 3;Pixel 3XL;170;52;137;38;11;419.5;passandroid
-eyeautomate;Pixel 3;Nexus 4;170;52;157;45;19;453.9;passandroid
-eyeautomate;Pixel 3;Nexus S;167;50;84;28;0;727.7;passandroid
-eyeautomate;Pixel 3;Pixel 3a XL;170;52;93;35;2;540;passandroid
-eyeautomate;Pixel 3;Nexus 6 ;170;52;144;39;15;553.4;passandroid
-eyeautomate;Pixel 3;Nexus 6p;170;52;146;35;16;774.7;passandroid
-eyeautomate;Pixel 3;Pixel 2;170;52;141;41;14;680.5;passandroid
-eyeautomate;Pixel 3;Pixel 3;170;52;156;45;19;786.9;passandroid
-eyeautomate;Pixel 3;Pixel 3A;170;52;157;45;19;551.5;passandroid
-sikuli;Nexus5;Nexus5;170;52;169;51;29;349.8;passandroid
-sikuli;Nexus5;Nexus5x;170;52;84;15;1;368.4;passandroid
-sikuli;Nexus5;Pixel 2xl;170;52;76;15;2;312.6;passandroid
-sikuli;Nexus5;Pixel;170;52;85;16;1;421.7;passandroid
-sikuli;Nexus5;Pixel XL;170;52;84;15;1;335.4;passandroid
-sikuli;Nexus5;Pixel 3XL;170;52;82;15;2;451.8;passandroid
-sikuli;Nexus5;Nexus 4;170;52;89;20;2;338.7;passandroid
-sikuli;Nexus5;Nexus S;167;50;93;18;2;460.1;passandroid
+sikuli;Nexus S;Nexus 6p;167;50;7;4;0;906.6;passandroid
+sikuli;Nexus S;Nexus5x;234;77;35;5;0;320;antennapod
+sikuli;Nexus S;Pixel XL;234;77;56;5;0;247;antennapod
+sikuli;Nexus S;Pixel 3;234;77;54;5;0;281;antennapod
+sikuli;Nexus S;Pixel;167;50;40;5;1;430.1;passandroid
+sikuli;Nexus S;Pixel 3XL;167;50;16;5;1;911.7;passandroid
+sikuli;Nexus5;Pixel 3a XL;234;77;57;6;0;259;antennapod
+sikuli;Nexus S;Pixel 3a XL;234;77;34;6;0;232;antennapod
+sikuli;Nexus S;Pixel XL;167;50;49;6;0;416.5;passandroid
+sikuli;Nexus S;Pixel 3a XL;167;50;15;6;0;653.1;passandroid
+sikuli;Nexus S;Nexus 6;167;50;49;6;0;462.2;passandroid
 sikuli;Nexus5;Pixel 3a XL;170;52;40;8;1;348.8;passandroid
-sikuli;Nexus5;Nexus 6 ;170;52;85;16;1;380.6;passandroid
+sikuli;Nexus S;Nexus5x;167;50;45;8;1;663.4;passandroid
+sikuli;Nexus S;Pixel 2;167;50;47;8;1;335.4;passandroid
+sikuli;Nexus S;Pixel 3A;167;50;45;8;1;451.8;passandroid
+sikuli;Pixel 3;Nexus S;234;77;42;9;0;475;antennapod
+sikuli;Nexus S;Pixel 2xl;167;50;48;9;1;636.9;passandroid
+sikuli;Nexus S;Nexus 4;167;50;46;9;1;368.2;passandroid
+sikuli;Nexus S;Pixel 3;167;50;53;9;1;371.6;passandroid
+sikuli;Nexus S;Nexus5;234;77;68;10;0;260;antennapod
+sikuli;Nexus5;Pixel 2xl;234;77;65;11;0;245;antennapod
+sikuli;Pixel 3;Nexus S;167;50;22;11;0;352.7;passandroid
+sikuli;Nexus5;Pixel 3XL;234;77;65;12;0;260;antennapod
+eyeautomate;Nexus S;Nexus 6p;234;77;28;13;0;263;antennapod
+sikuli;Nexus5;Nexus 6;234;77;67;13;0;266;antennapod
+eyeautomate;Nexus S;Pixel 3a XL;167;50;35;13;0;1178.6;passandroid
+sikuli;Nexus5;Nexus5x;234;77;80;14;0;240;antennapod
+sikuli;Nexus5;Nexus 6p;234;77;81;14;0;269;antennapod
+sikuli;Pixel 3;Nexus5;234;77;91;14;0;306;antennapod
+eyeautomate;Nexus S;Nexus5x;167;50;47;14;0;2021;passandroid
+eyeautomate;Nexus S;Pixel;167;50;40;14;0;1008.77;passandroid
+eyeautomate;Nexus S;Pixel 2;167;50;41;14;0;887;passandroid
 sikuli;Nexus5;Nexus 6p;170;52;83;14;1;361.6;passandroid
 sikuli;Nexus5;Pixel 2;170;52;83;14;1;336.8;passandroid
-sikuli;Nexus5;Pixel 3;170;52;88;19;2;362.3;passandroid
-sikuli;Nexus5;Pixel 3A;170;52;90;20;3;356.6;passandroid
 sikuli;Nexus S;Nexus5;167;50;82;14;1;393.2;passandroid
-sikuli;Nexus S;Nexus5x;167;50;45;8;1;663.4;passandroid
-sikuli;Nexus S;Pixel 2xl;167;50;48;9;1;636.9;passandroid
-sikuli;Nexus S;Pixel;167;50;40;5;1;430.1;passandroid
-sikuli;Nexus S;Pixel XL;167;50;49;6;0;416.5;passandroid
-sikuli;Nexus S;Pixel 3XL;167;50;16;5;1;911.7;passandroid
-sikuli;Nexus S;Nexus 4;167;50;46;9;1;368.2;passandroid
-sikuli;Nexus S;Nexus S;167;50;167;50;30;418;passandroid
-sikuli;Nexus S;Pixel 3a XL;167;50;15;6;0;653.1;passandroid
-sikuli;Nexus S;Nexus 6 ;167;50;49;6;0;462.2;passandroid
-sikuli;Nexus S;Nexus 6p;167;50;7;4;0;906.6;passandroid
-sikuli;Nexus S;Pixel 2;167;50;47;8;1;335.4;passandroid
-sikuli;Nexus S;Pixel 3;167;50;53;9;1;371.6;passandroid
-sikuli;Nexus S;Pixel 3A;167;50;45;8;1;451.8;passandroid
-sikuli;Pixel 3;Nexus5;170;52;96;20;2;353.2;passandroid
-sikuli;Pixel 3;Nexus5x;170;52;101;28;3;328.8;passandroid
-sikuli;Pixel 3;Pixel 2xl;170;52;99;24;3;344.1;passandroid
-sikuli;Pixel 3;Pixel;170;52;106;28;3;330.4;passandroid
-sikuli;Pixel 3;Pixel XL;170;52;104;27;3;375.4;passandroid
-sikuli;Pixel 3;Pixel 3XL;170;52;99;24;3;324.4;passandroid
-sikuli;Pixel 3;Nexus 4;170;52;131;45;16;344.8;passandroid
-sikuli;Pixel 3;Nexus S;167;50;22;11;0;352.7;passandroid
+eyeautomate;Nexus S;Pixel 3XL;234;77;36;15;0;394;antennapod
+sikuli;Nexus5;Pixel;234;77;84;15;0;228;antennapod
+sikuli;Nexus5;Pixel XL;234;77;83;15;0;237;antennapod
+sikuli;Nexus5;Nexus S;234;77;66;15;0;240;antennapod
+sikuli;Nexus5;Pixel 2;234;77;85;15;0;267;antennapod
+eyeautomate;Nexus S;Nexus 6p;167;50;31;15;0;1549.8;passandroid
+sikuli;Nexus5;Nexus5x;170;52;84;15;1;368.4;passandroid
+sikuli;Nexus5;Pixel 2xl;170;52;76;15;2;312.6;passandroid
+sikuli;Nexus5;Pixel XL;170;52;84;15;1;335.4;passandroid
+sikuli;Nexus5;Pixel 3XL;170;52;82;15;2;451.8;passandroid
+eyeautomate;Nexus S;Pixel 3;167;50;48;16;0;623.9;passandroid
+sikuli;Nexus5;Pixel;170;52;85;16;1;421.7;passandroid
+sikuli;Nexus5;Nexus 6;170;52;85;16;1;380.6;passandroid
+eyeautomate;Nexus S;Pixel;234;77;36;17;0;303;antennapod
+eyeautomate;Nexus S;Nexus 6;234;77;41;17;0;156;antennapod
+sikuli;Pixel 3;Pixel 3a XL;234;77;90;17;0;343;antennapod
+eyeautomate;Nexus S;Pixel XL;234;77;53;18;0;161;antennapod
+eyeautomate;Nexus S;Pixel XL;167;50;72;18;0;555.1;passandroid
+eyeautomate;Nexus S;Pixel 3XL;167;50;36;18;0;1243.6;passandroid
+sikuli;Nexus5;Nexus S;167;50;93;18;2;460.1;passandroid
+akaze_cropped;Pixel 3;Nexus S;234;77;40;19;0;365;antennapod
+sikuli;Nexus5;Pixel 3;170;52;88;19;2;362.3;passandroid
 sikuli;Pixel 3;Pixel 3a XL;170;52;88;19;0;336.5;passandroid
-sikuli;Pixel 3;Nexus 6 ;170;52;93;22;3;357.7;passandroid
+sikuli;Nexus5;Pixel 3;234;77;93;20;0;254;antennapod
+sikuli;Nexus5;Pixel 3A;234;77;91;20;0;256;antennapod
+eyeautomate;Nexus S;Nexus 4;167;50;75;20;0;560.2;passandroid
+eyeautomate;Nexus S;Pixel 3A;167;50;66;20;0;965.4;passandroid
+sikuli;Nexus5;Nexus 4;170;52;89;20;2;338.7;passandroid
+sikuli;Nexus5;Pixel 3A;170;52;90;20;3;356.6;passandroid
+sikuli;Pixel 3;Nexus5;170;52;96;20;2;353.2;passandroid
+eyeautomate;Nexus S;Nexus 6;167;50;72;21;0;1249.2;passandroid
+eyeautomate;Nexus S;Nexus5x;234;77;53;22;1;201;antennapod
+eyeautomate;Nexus S;Pixel 2xl;234;77;42;22;0;198;antennapod
+sikuli;Nexus5;Nexus 4;234;77;96;22;0;267;antennapod
+akaze_cropped;Nexus5;Nexus S;234;77;66;22;0;400;antennapod
+akaze_cropped;Nexus S;Nexus5x;234;77;92;22;0;879;antennapod
+akaze_cropped;Nexus S;Pixel 2xl;234;77;101;22;1;1680;antennapod
+eyeautomate;Nexus S;Pixel 2xl;167;50;65;22;0;756.6;passandroid
+sikuli;Pixel 3;Nexus 6;170;52;93;22;3;357.7;passandroid
+eyeautomate;Nexus S;Pixel 3a XL;234;77;43;23;1;357;antennapod
+sikuli;Pixel 3;Nexus5x;234;77;103;23;0;352;antennapod
+sikuli;Pixel 3;Pixel;234;77;102;23;1;547;antennapod
+akaze_cropped;Nexus S;Pixel 3XL;234;77;95;23;1;1633;antennapod
+akaze_cropped;Nexus S;Nexus 6;234;77;109;23;1;1352;antennapod
+akaze_cropped;Nexus S;Nexus 6p;234;77;113;23;1;1520;antennapod
 sikuli;Pixel 3;Nexus 6p;170;52;94;23;3;356.6;passandroid
 sikuli;Pixel 3;Pixel 2;170;52;100;23;3;469.4;passandroid
-sikuli;Pixel 3;Pixel 3;170;52;170;52;30;310.2;passandroid
-sikuli;Pixel 3;Pixel 3A;170;52;170;52;30;387.5;passandroid
-akaze_cropped;Nexus5;Nexus5;170;52;168;51;29;1890;passandroid
-akaze_cropped;Nexus5;Nexus5x;170;52;141;48;7;1400;passandroid
-akaze_cropped;Nexus5;Pixel 2xl;170;52;138;46;5;1890;passandroid
-akaze_cropped;Nexus5;Pixel;170;52;141;48;7;1230;passandroid
-akaze_cropped;Nexus5;Pixel XL;170;52;162;46;23;1570;passandroid
-akaze_cropped;Nexus5;Pixel 3XL;170;52;138;46;6;1820;passandroid
-akaze_cropped;Nexus5;Nexus 4;170;52;142;37;8;980;passandroid
+eyeautomate;Nexus S;Pixel 3A;234;77;82;24;0;230;antennapod
+akaze_cropped;Nexus S;Nexus5;234;77;104;24;2;893;antennapod
+akaze_cropped;Nexus S;Pixel;234;77;92;24;0;846;antennapod
+akaze_cropped;Nexus S;Nexus 4;234;77;117;24;1;434;antennapod
+akaze_cropped;Nexus S;Pixel 3A;234;77;119;24;2;975;antennapod
+eyeautomate;Nexus5;Nexus 6;170;52;108;24;1;656.7;passandroid
+sikuli;Pixel 3;Pixel 2xl;170;52;99;24;3;344.1;passandroid
+sikuli;Pixel 3;Pixel 3XL;170;52;99;24;3;324.4;passandroid
+sikuli;Pixel 3;Nexus 6;234;77;107;25;0;489;antennapod
+akaze_cropped;Nexus S;Pixel XL;234;77;100;25;1;1424;antennapod
+akaze_cropped;Nexus S;Pixel 3a XL;234;77;122;25;1;970;antennapod
+eyeautomate;Nexus5;Pixel 3a XL;170;52;79;25;1;845.6;passandroid
+eyeautomate;Nexus5;Pixel 3a XL;234;77;102;26;0;399;antennapod
+akaze_cropped;Nexus S;Pixel 2;234;77;96;26;1;870;antennapod
+akaze_cropped;Nexus S;Pixel 3;234;77;122;26;2;960;antennapod
 akaze_cropped;Nexus5;Nexus S;167;50;130;26;4;1240;passandroid
-akaze_cropped;Nexus5;Pixel 3a XL;170;52;127;44;1;1300;passandroid
-akaze_cropped;Nexus5;Nexus 6 ;170;52;162;46;23;1790;passandroid
-akaze_cropped;Nexus5;Nexus 6p;170;52;157;45;22;1790;passandroid
-akaze_cropped;Nexus5;Pixel 2;170;52;136;48;7;1270;passandroid
-akaze_cropped;Nexus5;Pixel 3;170;52;167;50;28;1260;passandroid
-akaze_cropped;Nexus5;Pixel 3A;170;52;167;51;28;1310;passandroid
-akaze_cropped;Nexus S;Nexus5;167;50;138;31;5;630;passandroid
-akaze_cropped;Nexus S;Nexus5x;167;50;112;31;1;620;passandroid
-akaze_cropped;Nexus S;Pixel 2xl;167;50;108;28;1;1760;passandroid
-akaze_cropped;Nexus S;Pixel;167;50;112;31;1;600;passandroid
-akaze_cropped;Nexus S;Pixel XL;167;50;106;28;1;1000;passandroid
 akaze_cropped;Nexus S;Pixel 3XL;167;50;103;26;1;1120;passandroid
-akaze_cropped;Nexus S;Nexus 4;167;50;136;31;5;370;passandroid
-akaze_cropped;Nexus S;Nexus S;167;50;138;32;6;250;passandroid
-akaze_cropped;Nexus S;Pixel 3a XL;167;50;136;30;5;670;passandroid
-akaze_cropped;Nexus S;Nexus 6 ;167;50;103;26;1;1050;passandroid
+akaze_cropped;Nexus S;Nexus 6;167;50;103;26;1;1050;passandroid
+sikuli;Pixel 3;Pixel XL;234;77;109;27;0;344;antennapod
+sikuli;Pixel 3;Nexus 6p;234;77;108;27;0;533;antennapod
+eyeautomate;Nexus5;Pixel 2xl;170;52;116;27;3;446.9;passandroid
+eyeautomate;Nexus S;Nexus5;167;50;96;27;1;546.8;passandroid
+sikuli;Pixel 3;Pixel XL;170;52;104;27;3;375.4;passandroid
+sikuli;Pixel 3;Pixel 2xl;234;77;111;28;0;280;antennapod
+sikuli;Pixel 3;Pixel 3XL;234;77;114;28;0;503;antennapod
+sikuli;Pixel 3;Pixel 2;234;77;110;28;0;574;antennapod
+eyeautomate;Pixel 3;Nexus S;167;50;84;28;0;727.7;passandroid
+sikuli;Pixel 3;Nexus5x;170;52;101;28;3;328.8;passandroid
+sikuli;Pixel 3;Pixel;170;52;106;28;3;330.4;passandroid
+akaze_cropped;Nexus S;Pixel 2xl;167;50;108;28;1;1760;passandroid
+akaze_cropped;Nexus S;Pixel XL;167;50;106;28;1;1000;passandroid
 akaze_cropped;Nexus S;Nexus 6p;167;50;105;28;1;1020;passandroid
+eyeautomate;Nexus S;Pixel 2;234;77;60;29;0;550;antennapod
+eyeautomate;Nexus5;Pixel;170;52;127;29;6;456.3;passandroid
+eyeautomate;Nexus5;Pixel XL;170;52;118;29;8;379.6;passandroid
+akaze_cropped;Pixel 3;Nexus S;167;50;136;29;4;850;passandroid
+akaze_cropped;Nexus S;Pixel 3a XL;167;50;136;30;5;670;passandroid
 akaze_cropped;Nexus S;Pixel 2;167;50;106;30;1;650;passandroid
 akaze_cropped;Nexus S;Pixel 3;167;50;132;30;4;670;passandroid
+eyeautomate;Nexus S;Nexus 4;234;77;59;31;0;239;antennapod
+eyeautomate;Nexus S;Pixel 3;234;77;63;31;0;548;antennapod
+eyeautomate;Nexus5;Pixel 3XL;170;52;125;31;5;575.3;passandroid
+eyeautomate;Nexus5;Nexus S;167;50;123;31;7;636.2;passandroid
+akaze_cropped;Nexus S;Nexus5;167;50;138;31;5;630;passandroid
+akaze_cropped;Nexus S;Nexus5x;167;50;112;31;1;620;passandroid
+akaze_cropped;Nexus S;Pixel;167;50;112;31;1;600;passandroid
+akaze_cropped;Nexus S;Nexus 4;167;50;136;31;5;370;passandroid
 akaze_cropped;Nexus S;Pixel 3A;167;50;136;31;5;770;passandroid
-akaze_cropped;Pixel 3;Nexus5;170;52;165;49;26;1250;passandroid
-akaze_cropped;Pixel 3;Nexus5x;170;52;166;49;27;1230;passandroid
-akaze_cropped;Pixel 3;Pixel 2xl;170;52;136;45;6;1960;passandroid
-akaze_cropped;Pixel 3;Pixel;170;52;166;49;27;1400;passandroid
-akaze_cropped;Pixel 3;Pixel XL;170;52;137;45;6;1900;passandroid
-akaze_cropped;Pixel 3;Pixel 3XL;170;52;135;45;6;2050;passandroid
+eyeautomate;Nexus5;Pixel 2;170;52;119;32;9;302.9;passandroid
+akaze_cropped;Nexus S;Nexus S;167;50;138;32;6;250;passandroid
+akaze_fullscreen;Nexus5;Nexus S;167;50;108;32;3;760;passandroid
+surf_cropped;Pixel 3;Nexus S;234;77;132;33;0;751;antennapod
+eyeautomate;Nexus5;Nexus5x;170;52;124;33;7;450.2;passandroid
+akaze_cropped;Nexus S;Nexus S;234;77;132;34;3;325;antennapod
+sift_cropped;Pixel 3;Nexus S;234;77;149;35;1;834;antennapod
+eyeautomate;Nexus5;Nexus 6p;170;52;147;35;16;656.7;passandroid
+eyeautomate;Pixel 3;Pixel 3a XL;170;52;93;35;2;540;passandroid
+eyeautomate;Pixel 3;Nexus 6p;170;52;146;35;16;774.7;passandroid
+surf_cropped;Nexus5;Pixel 2;170;52;165;35;22;1310;passandroid
+surf_cropped;Nexus S;Pixel 2;167;50;138;35;11;1160;passandroid
+eyeautomate;Nexus5;Pixel;234;77;88;36;0;199;antennapod
+eyeautomate;Nexus5;Nexus 4;170;52;135;36;11;437.2;passandroid
+eyeautomate;Pixel 3;Nexus5;170;52;130;36;12;804.5;passandroid
+eyeautomate;Nexus5;Nexus 6;234;77;137;37;0;263;antennapod
+surf_cropped;Nexus S;Pixel 3XL;234;77;98;37;0;4050;antennapod
+surf_cropped;Nexus S;Nexus 6;234;77;88;37;0;3514;antennapod
+akaze_cropped;Nexus5;Nexus 4;170;52;142;37;8;980;passandroid
 akaze_cropped;Pixel 3;Nexus 4;170;52;148;37;12;960;passandroid
-akaze_cropped;Pixel 3;Nexus S;167;50;136;29;4;850;passandroid
-akaze_cropped;Pixel 3;Pixel 3a XL;170;52;165;50;26;2220;passandroid
-akaze_cropped;Pixel 3;Nexus 6 ;170;52;138;46;6;1620;passandroid
-akaze_cropped;Pixel 3;Nexus 6p;170;52;131;44;6;1620;passandroid
-akaze_cropped;Pixel 3;Pixel 2;170;52;158;47;24;1430;passandroid
-akaze_cropped;Pixel 3;Pixel 3;170;52;166;49;27;1480;passandroid
-akaze_cropped;Pixel 3;Pixel 3A;170;52;165;49;26;1380;passandroid
-sift_cropped;Nexus5;Nexus5;170;52;168;52;29;1860;passandroid
-sift_cropped;Nexus5;Nexus5x;170;52;168;49;29;1540;passandroid
-sift_cropped;Nexus5;Pixel 2xl;170;52;167;47;28;2510;passandroid
-sift_cropped;Nexus5;Pixel;170;52;167;48;28;1320;passandroid
-sift_cropped;Nexus5;Pixel XL;170;52;167;47;28;1720;passandroid
-sift_cropped;Nexus5;Pixel 3XL;170;52;167;46;28;2610;passandroid
-sift_cropped;Nexus5;Nexus 4;170;52;140;46;5;2440;passandroid
-sift_cropped;Nexus5;Nexus S;167;50;155;52;20;1330;passandroid
-sift_cropped;Nexus5;Pixel 3a XL;170;52;162;49;24;1400;passandroid
-sift_cropped;Nexus5;Nexus 6 ;170;52;166;48;27;2050;passandroid
-sift_cropped;Nexus5;Nexus 6p;170;52;158;47;25;2120;passandroid
-sift_cropped;Nexus5;Pixel 2;170;52;160;48;26;1420;passandroid
-sift_cropped;Nexus5;Pixel 3;170;52;167;50;28;1420;passandroid
-sift_cropped;Nexus5;Pixel 3A;170;52;164;47;26;1460;passandroid
-sift_cropped;Nexus S;Nexus5;167;50;164;48;26;720;passandroid
-sift_cropped;Nexus S;Nexus5x;167;50;162;49;25;710;passandroid
-sift_cropped;Nexus S;Pixel 2xl;167;50;161;47;23;2190;passandroid
-sift_cropped;Nexus S;Pixel;167;50;159;48;23;700;passandroid
-sift_cropped;Nexus S;Pixel XL;167;50;162;47;25;1190;passandroid
-sift_cropped;Nexus S;Pixel 3XL;167;50;133;46;2;1380;passandroid
-sift_cropped;Nexus S;Nexus 4;167;50;160;46;24;440;passandroid
-sift_cropped;Nexus S;Nexus S;167;50;167;50;30;280;passandroid
-sift_cropped;Nexus S;Pixel 3a XL;167;50;146;49;13;840;passandroid
-sift_cropped;Nexus S;Nexus 6 ;167;50;159;48;22;1280;passandroid
-sift_cropped;Nexus S;Nexus 6p;167;50;153;47;21;1260;passandroid
-sift_cropped;Nexus S;Pixel 2;167;50;152;48;21;770;passandroid
-sift_cropped;Nexus S;Pixel 3;167;50;148;50;14;820;passandroid
-sift_cropped;Nexus S;Pixel 3A;167;50;146;47;13;1010;passandroid
-sift_cropped;Pixel 3;Nexus5;170;52;156;50;18;1340;passandroid
-sift_cropped;Pixel 3;Nexus5x;170;52;163;51;24;1330;passandroid
-sift_cropped;Pixel 3;Pixel 2xl;170;52;166;50;27;1990;passandroid
-sift_cropped;Pixel 3;Pixel;170;52;159;52;20;1550;passandroid
-sift_cropped;Pixel 3;Pixel XL;170;52;161;51;24;2050;passandroid
-sift_cropped;Pixel 3;Pixel 3XL;170;52;151;51;16;2180;passandroid
-sift_cropped;Pixel 3;Nexus 4;170;52;129;48;1;1080;passandroid
-sift_cropped;Pixel 3;Nexus S;167;50;139;45;9;910;passandroid
-sift_cropped;Pixel 3;Pixel 3a XL;170;52;167;51;28;2690;passandroid
-sift_cropped;Pixel 3;Nexus 6 ;170;52;160;51;23;1760;passandroid
-sift_cropped;Pixel 3;Nexus 6p;170;52;154;50;21;1770;passandroid
-sift_cropped;Pixel 3;Pixel 2;170;52;155;51;21;1470;passandroid
-sift_cropped;Pixel 3;Pixel 3;170;52;169;52;30;1610;passandroid
-sift_cropped;Pixel 3;Pixel 3A;170;52;157;51;28;1490;passandroid
-surf_cropped;Nexus5;Nexus5;170;52;165;51;27;1140;passandroid
-surf_cropped;Nexus5;Nexus5x;170;52;160;39;22;1140;passandroid
+surf_cropped;Nexus5;Nexus 6;170;52;159;37;22;1430;passandroid
+surf_cropped;Nexus5;Nexus 6p;170;52;158;37;24;1370;passandroid
+surf_cropped;Nexus S;Nexus 6;167;50;131;37;9;1590;passandroid
+surf_cropped;Nexus S;Nexus 6p;167;50;135;37;7;1710;passandroid
+surf_cropped;Pixel 3;Nexus S;167;50;138;37;9;260;passandroid
+surf_cropped;Nexus5;Nexus S;234;77;147;38;2;714;antennapod
+surf_cropped;Nexus S;Pixel 2xl;234;77;98;38;0;4087;antennapod
+eyeautomate;Pixel 3;Pixel XL;170;52;139;38;15;487;passandroid
+eyeautomate;Pixel 3;Pixel 3XL;170;52;137;38;11;419.5;passandroid
 surf_cropped;Nexus5;Pixel 2xl;170;52;165;38;27;1600;passandroid
-surf_cropped;Nexus5;Pixel;170;52;162;40;24;1360;passandroid
 surf_cropped;Nexus5;Pixel XL;170;52;160;38;24;1670;passandroid
+surf_cropped;Nexus5;Pixel 3a XL;170;52;156;38;19;2190;passandroid
+surf_cropped;Nexus S;Pixel 2xl;167;50;144;38;12;1750;passandroid
+surf_cropped;Nexus S;Pixel XL;167;50;144;38;13;1390;passandroid
+surf_cropped;Nexus S;Pixel 3a XL;167;50;155;38;19;1130;passandroid
+eyeautomate;Nexus5;Nexus5x;234;77;116;39;0;503;antennapod
+sikuli;Pixel 3;Nexus 4;234;77;145;39;0;389;antennapod
+surf_cropped;Nexus S;Pixel XL;234;77;92;39;0;3363;antennapod
+eyeautomate;Nexus5;Pixel 3;170;52;145;39;9;523.8;passandroid
+eyeautomate;Nexus5;Pixel 3A;170;52;149;39;13;638.3;passandroid
+eyeautomate;Pixel 3;Pixel 2xl;170;52;148;39;15;469.2;passandroid
+eyeautomate;Pixel 3;Nexus 6;170;52;144;39;15;553.4;passandroid
+surf_cropped;Nexus5;Nexus5x;170;52;160;39;22;1140;passandroid
+surf_cropped;Nexus S;Nexus5x;167;50;147;39;12;1330;passandroid
+eyeautomate;Nexus5;Nexus 6p;234;77;91;40;0;233;antennapod
+akaze_cropped;Nexus5;Nexus 4;234;77;152;40;6;612;antennapod
+sift_cropped;Nexus5;Nexus S;234;77;164;40;2;816;antennapod
+eyeautomate;Nexus S;Nexus S;167;50;149;40;18;975.2;passandroid
+eyeautomate;Pixel 3;Nexus5x;170;52;152;40;16;420.9;passandroid
+surf_cropped;Nexus5;Pixel;170;52;162;40;24;1360;passandroid
 surf_cropped;Nexus5;Pixel 3XL;170;52;165;40;26;1780;passandroid
 surf_cropped;Nexus5;Nexus 4;170;52;143;40;15;960;passandroid
-surf_cropped;Nexus5;Nexus S;167;50;136;50;10;850;passandroid
-surf_cropped;Nexus5;Pixel 3a XL;170;52;156;38;19;2190;passandroid
-surf_cropped;Nexus5;Nexus 6 ;170;52;159;37;22;1430;passandroid
-surf_cropped;Nexus5;Nexus 6p;170;52;158;37;24;1370;passandroid
-surf_cropped;Nexus5;Pixel 2;170;52;165;35;22;1310;passandroid
-surf_cropped;Nexus5;Pixel 3;170;52;158;42;21;1370;passandroid
-surf_cropped;Nexus5;Pixel 3A;170;52;163;46;25;1300;passandroid
-surf_cropped;Nexus S;Nexus5;167;50;153;45;19;1940;passandroid
-surf_cropped;Nexus S;Nexus5x;167;50;147;39;12;1330;passandroid
-surf_cropped;Nexus S;Pixel 2xl;167;50;144;38;12;1750;passandroid
 surf_cropped;Nexus S;Pixel;167;50;149;40;13;1100;passandroid
-surf_cropped;Nexus S;Pixel XL;167;50;144;38;13;1390;passandroid
 surf_cropped;Nexus S;Pixel 3XL;167;50;146;40;12;1600;passandroid
 surf_cropped;Nexus S;Nexus 4;167;50;133;40;8;1020;passandroid
-surf_cropped;Nexus S;Nexus S;167;50;150;50;12;1300;passandroid
-surf_cropped;Nexus S;Pixel 3a XL;167;50;155;38;19;1130;passandroid
-surf_cropped;Nexus S;Nexus 6 ;167;50;131;37;9;1590;passandroid
-surf_cropped;Nexus S;Nexus 6p;167;50;135;37;7;1710;passandroid
-surf_cropped;Nexus S;Pixel 2;167;50;138;35;11;1160;passandroid
-surf_cropped;Nexus S;Pixel 3;167;50;153;42;17;1150;passandroid
-surf_cropped;Nexus S;Pixel 3A;167;50;155;46;6;1210;passandroid
-surf_cropped;Pixel 3;Nexus5;170;52;157;50;21;620;passandroid
-surf_cropped;Pixel 3;Nexus5x;170;52;165;52;26;580;passandroid
-surf_cropped;Pixel 3;Pixel 2xl;170;52;160;46;23;1410;passandroid
-surf_cropped;Pixel 3;Pixel;170;52;165;51;26;540;passandroid
-surf_cropped;Pixel 3;Pixel XL;170;52;161;50;22;860;passandroid
-surf_cropped;Pixel 3;Pixel 3XL;170;52;163;49;25;910;passandroid
+akaze_fullscreen;Pixel 3;Nexus S;167;50;138;40;8;740;passandroid
+eyeautomate;Nexus5;Pixel 2;234;77;144;41;0;337;antennapod
+eyeautomate;Pixel 3;Pixel;170;52;153;41;16;683.2;passandroid
+eyeautomate;Pixel 3;Pixel 2;170;52;141;41;14;680.5;passandroid
 surf_cropped;Pixel 3;Nexus 4;170;52;140;41;9;400;passandroid
-surf_cropped;Pixel 3;Nexus S;167;50;138;37;9;260;passandroid
-surf_cropped;Pixel 3;Pixel 3a XL;170;52;165;49;21;560;passandroid
-surf_cropped;Pixel 3;Nexus 6 ;170;52;165;50;26;880;passandroid
-surf_cropped;Pixel 3;Nexus 6p;170;52;158;50;24;900;passandroid
-surf_cropped;Pixel 3;Pixel 2;170;52;159;50;24;590;passandroid
-surf_cropped;Pixel 3;Pixel 3;170;52;161;52;24;600;passandroid
-surf_cropped;Pixel 3;Pixel 3A;170;52;160;52;26;780;passandroid
-akaze_fullscreen;Nexus5;Nexus5;170;52;167;52;30;1410;passandroid
-akaze_fullscreen;Nexus5;Nexus5x;170;52;166;49;27;1190;passandroid
-akaze_fullscreen;Nexus5;Pixel 2xl;170;52;160;50;21;1780;passandroid
-akaze_fullscreen;Nexus5;Pixel;170;52;166;49;27;1120;passandroid
-akaze_fullscreen;Nexus5;Pixel XL;170;52;163;51;24;1540;passandroid
-akaze_fullscreen;Nexus5;Pixel 3XL;170;52;159;50;20;1690;passandroid
-akaze_fullscreen;Nexus5;Nexus 4;170;52;163;49;25;960;passandroid
-akaze_fullscreen;Nexus5;Nexus S;167;50;108;32;3;760;passandroid
-akaze_fullscreen;Nexus5;Pixel 3a XL;170;52;158;51;26;1210;passandroid
-akaze_fullscreen;Nexus5;Nexus 6 ;170;52;163;51;24;1740;passandroid
-akaze_fullscreen;Nexus5;Nexus 6p;170;52;155;49;21;1640;passandroid
-akaze_fullscreen;Nexus5;Pixel 2;170;52;159;47;25;1210;passandroid
-akaze_fullscreen;Nexus5;Pixel 3;170;52;166;49;27;1260;passandroid
-akaze_fullscreen;Nexus5;Pixel 3A;170;52;165;49;26;1320;passandroid
-akaze_fullscreen;Nexus S;Nexus5;167;50;162;49;25;650;passandroid
+surf_fullscreen;Nexus5;Nexus S;167;50;151;41;17;770;passandroid
+surf_cropped;Nexus S;Nexus 6p;234;77;92;42;0;3450;antennapod
+surf_cropped;Nexus5;Pixel 3;170;52;158;42;21;1370;passandroid
+surf_cropped;Nexus S;Pixel 3;167;50;153;42;17;1150;passandroid
+sift_fullscreen;Pixel 3;Nexus S;167;50;121;42;1;830;passandroid
+surf_fullscreen;Pixel 3;Nexus S;167;50;153;42;17;660;passandroid
+eyeautomate;Nexus5;Pixel XL;234;77;125;44;0;193;antennapod
+surf_cropped;Nexus S;Pixel 3a XL;234;77;116;44;1;2557;antennapod
+akaze_cropped;Nexus5;Pixel 3a XL;170;52;127;44;1;1300;passandroid
+akaze_cropped;Pixel 3;Nexus 6p;170;52;131;44;6;1620;passandroid
+akaze_fullscreen;Nexus S;Pixel XL;167;50;157;44;24;990;passandroid
+akaze_fullscreen;Nexus S;Pixel 3a XL;167;50;130;44;1;710;passandroid
+akaze_fullscreen;Nexus S;Nexus 6p;167;50;150;44;21;980;passandroid
+sift_fullscreen;Nexus5;Nexus S;167;50;147;44;13;830;passandroid
+surf_fullscreen;Nexus S;Nexus5x;167;50;159;44;22;590;passandroid
+surf_fullscreen;Nexus S;Nexus 4;167;50;158;44;22;420;passandroid
+surf_fullscreen;Nexus S;Pixel 3a XL;167;50;157;44;19;610;passandroid
+surf_fullscreen;Nexus S;Pixel 2;167;50;152;44;20;580;passandroid
+akaze_cropped;Nexus5;Pixel 3XL;234;77;167;45;4;1756;antennapod
+eyeautomate;Pixel 3;Nexus 4;170;52;157;45;19;453.9;passandroid
+eyeautomate;Pixel 3;Pixel 3;170;52;156;45;19;786.9;passandroid
+eyeautomate;Pixel 3;Pixel 3A;170;52;157;45;19;551.5;passandroid
+sikuli;Pixel 3;Nexus 4;170;52;131;45;16;344.8;passandroid
+akaze_cropped;Nexus5;Nexus 6p;170;52;157;45;22;1790;passandroid
+akaze_cropped;Pixel 3;Pixel 2xl;170;52;136;45;6;1960;passandroid
+akaze_cropped;Pixel 3;Pixel XL;170;52;137;45;6;1900;passandroid
+akaze_cropped;Pixel 3;Pixel 3XL;170;52;135;45;6;2050;passandroid
+sift_cropped;Pixel 3;Nexus S;167;50;139;45;9;910;passandroid
+surf_cropped;Nexus S;Nexus5;167;50;153;45;19;1940;passandroid
+akaze_fullscreen;Nexus S;Pixel 3XL;167;50;157;45;21;1100;passandroid
+akaze_fullscreen;Nexus S;Nexus 6;167;50;157;45;20;1020;passandroid
+akaze_fullscreen;Nexus S;Pixel 2;167;50;151;45;25;620;passandroid
+sift_fullscreen;Nexus S;Nexus 4;167;50;157;45;20;470;passandroid
+surf_fullscreen;Nexus S;Pixel;167;50;160;45;23;610;passandroid
+surf_fullscreen;Nexus S;Pixel 3;167;50;159;45;21;640;passandroid
+surf_fullscreen;Nexus S;Pixel 3A;167;50;158;45;21;660;passandroid
+akaze_cropped;Pixel 3;Nexus 4;234;77;147;46;1;621;antennapod
+surf_cropped;Nexus5;Nexus 4;234;77;157;46;1;1272;antennapod
+eyeautomate;Nexus5;Nexus5;170;52;151;46;21;405.8;passandroid
+akaze_cropped;Nexus5;Pixel 2xl;170;52;138;46;5;1890;passandroid
+akaze_cropped;Nexus5;Pixel XL;170;52;162;46;23;1570;passandroid
+akaze_cropped;Nexus5;Pixel 3XL;170;52;138;46;6;1820;passandroid
+akaze_cropped;Nexus5;Nexus 6;170;52;162;46;23;1790;passandroid
+akaze_cropped;Pixel 3;Nexus 6;170;52;138;46;6;1620;passandroid
+sift_cropped;Nexus5;Pixel 3XL;170;52;167;46;28;2610;passandroid
+sift_cropped;Nexus5;Nexus 4;170;52;140;46;5;2440;passandroid
+sift_cropped;Nexus S;Pixel 3XL;167;50;133;46;2;1380;passandroid
+sift_cropped;Nexus S;Nexus 4;167;50;160;46;24;440;passandroid
+surf_cropped;Nexus5;Pixel 3A;170;52;163;46;25;1300;passandroid
+surf_cropped;Nexus S;Pixel 3A;167;50;155;46;6;1210;passandroid
+surf_cropped;Pixel 3;Pixel 2xl;170;52;160;46;23;1410;passandroid
 akaze_fullscreen;Nexus S;Nexus5x;167;50;157;46;19;630;passandroid
 akaze_fullscreen;Nexus S;Pixel 2xl;167;50;135;46;21;1110;passandroid
 akaze_fullscreen;Nexus S;Pixel;167;50;157;46;19;650;passandroid
-akaze_fullscreen;Nexus S;Pixel XL;167;50;157;44;24;990;passandroid
-akaze_fullscreen;Nexus S;Pixel 3XL;167;50;157;45;21;1100;passandroid
 akaze_fullscreen;Nexus S;Nexus 4;167;50;161;46;25;400;passandroid
-akaze_fullscreen;Nexus S;Nexus S;167;50;168;50;29;280;passandroid
-akaze_fullscreen;Nexus S;Pixel 3a XL;167;50;130;44;1;710;passandroid
-akaze_fullscreen;Nexus S;Nexus 6 ;167;50;157;45;20;1020;passandroid
-akaze_fullscreen;Nexus S;Nexus 6p;167;50;150;44;21;980;passandroid
-akaze_fullscreen;Nexus S;Pixel 2;167;50;151;45;25;620;passandroid
-akaze_fullscreen;Nexus S;Pixel 3;167;50;164;49;27;710;passandroid
-akaze_fullscreen;Nexus S;Pixel 3A;167;50;137;48;26;720;passandroid
-akaze_fullscreen;Pixel 3;Nexus5;170;52;167;50;28;1210;passandroid
-akaze_fullscreen;Pixel 3;Nexus5x;170;52;166;49;27;1230;passandroid
-akaze_fullscreen;Pixel 3;Pixel 2xl;170;52;166;49;27;1670;passandroid
-akaze_fullscreen;Pixel 3;Pixel;170;52;166;49;27;1230;passandroid
-akaze_fullscreen;Pixel 3;Pixel XL;170;52;166;50;27;1560;passandroid
-akaze_fullscreen;Pixel 3;Pixel 3XL;170;52;163;48;21;1710;passandroid
+sift_fullscreen;Nexus S;Pixel 3XL;167;50;128;46;2;1380;passandroid
+sift_fullscreen;Nexus S;Pixel 2;167;50;131;46;4;810;passandroid
+surf_fullscreen;Nexus S;Pixel XL;167;50;161;46;24;860;passandroid
+surf_fullscreen;Nexus S;Nexus 6p;167;50;156;46;23;840;passandroid
+eyeautomate;Nexus5;Pixel 3XL;234;77;102;47;1;267;antennapod
+eyeautomate;Pixel 3;Pixel 3a XL;234;77;130;47;1;414;antennapod
+akaze_cropped;Nexus5;Pixel 2xl;234;77;166;47;4;1842;antennapod
+akaze_cropped;Nexus5;Nexus 6;234;77;162;47;2;1621;antennapod
+akaze_cropped;Pixel 3;Pixel 2;170;52;158;47;24;1430;passandroid
+sift_cropped;Nexus5;Pixel 2xl;170;52;167;47;28;2510;passandroid
+sift_cropped;Nexus5;Pixel XL;170;52;167;47;28;1720;passandroid
+sift_cropped;Nexus5;Nexus 6p;170;52;158;47;25;2120;passandroid
+sift_cropped;Nexus5;Pixel 3A;170;52;164;47;26;1460;passandroid
+sift_cropped;Nexus S;Pixel 2xl;167;50;161;47;23;2190;passandroid
+sift_cropped;Nexus S;Pixel XL;167;50;162;47;25;1190;passandroid
+sift_cropped;Nexus S;Nexus 6p;167;50;153;47;21;1260;passandroid
+sift_cropped;Nexus S;Pixel 3A;167;50;146;47;13;1010;passandroid
+akaze_fullscreen;Nexus5;Pixel 2;170;52;159;47;25;1210;passandroid
 akaze_fullscreen;Pixel 3;Nexus 4;170;52;160;47;24;990;passandroid
-akaze_fullscreen;Pixel 3;Nexus S;167;50;138;40;8;740;passandroid
-akaze_fullscreen;Pixel 3;Pixel 3a XL;170;52;166;50;27;1260;passandroid
-akaze_fullscreen;Pixel 3;Nexus 6 ;170;52;166;50;27;1570;passandroid
-akaze_fullscreen;Pixel 3;Nexus 6p;170;52;159;48;25;1590;passandroid
-akaze_fullscreen;Pixel 3;Pixel 2;170;52;160;49;26;1250;passandroid
-akaze_fullscreen;Pixel 3;Pixel 3;170;52;169;52;30;1290;passandroid
-akaze_fullscreen;Pixel 3;Pixel 3A;170;52;167;51;28;1330;passandroid
-sift_fullscreen;Nexus5;Nexus5;170;52;169;52;30;1480;passandroid
-sift_fullscreen;Nexus5;Nexus5x;170;52;167;51;28;1300;passandroid
-sift_fullscreen;Nexus5;Pixel 2xl;170;52;167;50;29;1990;passandroid
-sift_fullscreen;Nexus5;Pixel;170;52;167;51;28;1240;passandroid
-sift_fullscreen;Nexus5;Pixel XL;170;52;168;52;29;1730;passandroid
-sift_fullscreen;Nexus5;Pixel 3XL;170;52;165;49;26;1860;passandroid
 sift_fullscreen;Nexus5;Nexus 4;170;52;156;47;18;1020;passandroid
-sift_fullscreen;Nexus5;Nexus S;167;50;147;44;13;830;passandroid
-sift_fullscreen;Nexus5;Pixel 3a XL;170;52;162;49;23;1310;passandroid
-sift_fullscreen;Nexus5;Nexus 6 ;170;52;168;52;29;2040;passandroid
-sift_fullscreen;Nexus5;Nexus 6p;170;52;161;50;27;1800;passandroid
-sift_fullscreen;Nexus5;Pixel 2;170;52;159;49;27;1350;passandroid
-sift_fullscreen;Nexus5;Pixel 3;170;52;166;51;27;1290;passandroid
-sift_fullscreen;Nexus5;Pixel 3A;170;52;166;51;27;1420;passandroid
-sift_fullscreen;Nexus S;Nexus5;167;50;162;49;26;780;passandroid
-sift_fullscreen;Nexus S;Nexus5x;167;50;138;48;4;790;passandroid
 sift_fullscreen;Nexus S;Pixel 2xl;167;50;135;47;3;1390;passandroid
 sift_fullscreen;Nexus S;Pixel;167;50;135;47;3;780;passandroid
 sift_fullscreen;Nexus S;Pixel XL;167;50;158;47;23;1220;passandroid
-sift_fullscreen;Nexus S;Pixel 3XL;167;50;128;46;2;1380;passandroid
-sift_fullscreen;Nexus S;Nexus 4;167;50;157;45;20;470;passandroid
-sift_fullscreen;Nexus S;Nexus S;167;50;169;52;30;310;passandroid
-sift_fullscreen;Nexus S;Pixel 3a XL;167;50;163;48;25;820;passandroid
-sift_fullscreen;Nexus S;Nexus 6 ;167;50;155;47;21;1220;passandroid
+sift_fullscreen;Nexus S;Nexus 6;167;50;155;47;21;1220;passandroid
 sift_fullscreen;Nexus S;Nexus 6p;167;50;153;47;22;1250;passandroid
-sift_fullscreen;Nexus S;Pixel 2;167;50;131;46;4;810;passandroid
+surf_fullscreen;Nexus S;Nexus 6;167;50;162;47;24;870;passandroid
+eyeautomate;Nexus5;Pixel 2xl;234;77;106;48;0;267;antennapod
+eyeautomate;Nexus S;Nexus5;234;77;136;48;0;270;antennapod
+akaze_cropped;Nexus5;Pixel XL;234;77;150;48;3;1643;antennapod
+akaze_cropped;Nexus5;Nexus 6p;234;77;160;48;5;1574;antennapod
+akaze_cropped;Nexus5;Nexus5x;170;52;141;48;7;1400;passandroid
+akaze_cropped;Nexus5;Pixel;170;52;141;48;7;1230;passandroid
+akaze_cropped;Nexus5;Pixel 2;170;52;136;48;7;1270;passandroid
+sift_cropped;Nexus5;Pixel;170;52;167;48;28;1320;passandroid
+sift_cropped;Nexus5;Nexus 6;170;52;166;48;27;2050;passandroid
+sift_cropped;Nexus5;Pixel 2;170;52;160;48;26;1420;passandroid
+sift_cropped;Nexus S;Nexus5;167;50;164;48;26;720;passandroid
+sift_cropped;Nexus S;Pixel;167;50;159;48;23;700;passandroid
+sift_cropped;Nexus S;Nexus 6;167;50;159;48;22;1280;passandroid
+sift_cropped;Nexus S;Pixel 2;167;50;152;48;21;770;passandroid
+sift_cropped;Pixel 3;Nexus 4;170;52;129;48;1;1080;passandroid
+akaze_fullscreen;Nexus S;Pixel 3A;167;50;137;48;26;720;passandroid
+akaze_fullscreen;Pixel 3;Pixel 3XL;170;52;163;48;21;1710;passandroid
+akaze_fullscreen;Pixel 3;Nexus 6p;170;52;159;48;25;1590;passandroid
+sift_fullscreen;Nexus S;Nexus5x;167;50;138;48;4;790;passandroid
+sift_fullscreen;Nexus S;Pixel 3a XL;167;50;163;48;25;820;passandroid
 sift_fullscreen;Nexus S;Pixel 3;167;50;141;48;9;830;passandroid
 sift_fullscreen;Nexus S;Pixel 3A;167;50;141;48;25;826;passandroid
-sift_fullscreen;Pixel 3;Nexus5;170;52;162;51;24;1310;passandroid
-sift_fullscreen;Pixel 3;Nexus5x;170;52;167;50;29;1270;passandroid
-sift_fullscreen;Pixel 3;Pixel 2xl;170;52;169;51;30;2020;passandroid
-sift_fullscreen;Pixel 3;Pixel;170;52;167;50;28;1250;passandroid
-sift_fullscreen;Pixel 3;Pixel XL;170;52;167;51;28;1820;passandroid
-sift_fullscreen;Pixel 3;Pixel 3XL;170;52;164;52;27;2000;passandroid
 sift_fullscreen;Pixel 3;Nexus 4;170;52;161;48;25;1030;passandroid
-sift_fullscreen;Pixel 3;Nexus S;167;50;121;42;1;830;passandroid
-sift_fullscreen;Pixel 3;Pixel 3a XL;170;52;161;50;25;1340;passandroid
-sift_fullscreen;Pixel 3;Nexus 6 ;170;52;167;52;29;1800;passandroid
-sift_fullscreen;Pixel 3;Nexus 6p;170;52;162;51;28;1800;passandroid
-sift_fullscreen;Pixel 3;Pixel 2;170;52;160;49;26;1330;passandroid
-sift_fullscreen;Pixel 3;Pixel 3;170;52;169;52;30;1310;passandroid
-sift_fullscreen;Pixel 3;Pixel 3A;170;52;168;52;29;1400;passandroid
-surf_fullscreen;Nexus5;Nexus5;170;52;169;52;30;1710;passandroid
-surf_fullscreen;Nexus5;Nexus5x;170;52;166;49;27;1130;passandroid
-surf_fullscreen;Nexus5;Pixel 2xl;170;52;168;51;29;1420;passandroid
-surf_fullscreen;Nexus5;Pixel;170;52;167;50;28;1020;passandroid
-surf_fullscreen;Nexus5;Pixel XL;170;52;167;51;28;1230;passandroid
-surf_fullscreen;Nexus5;Pixel 3XL;170;52;167;51;28;1360;passandroid
-surf_fullscreen;Nexus5;Nexus 4;170;52;159;49;21;940;passandroid
-surf_fullscreen;Nexus5;Nexus S;167;50;151;41;17;770;passandroid
-surf_fullscreen;Nexus5;Pixel 3a XL;170;52;165;49;27;1050;passandroid
-surf_fullscreen;Nexus5;Nexus 6 ;170;52;167;51;28;1480;passandroid
-surf_fullscreen;Nexus5;Nexus 6p;170;52;161;50;28;1400;passandroid
-surf_fullscreen;Nexus5;Pixel 2;170;52;162;51;27;1120;passandroid
-surf_fullscreen;Nexus5;Pixel 3;170;52;167;50;28;1040;passandroid
-surf_fullscreen;Nexus5;Pixel 3A;170;52;167;51;28;1170;passandroid
 surf_fullscreen;Nexus S;Nexus5;167;50;164;48;26;700;passandroid
-surf_fullscreen;Nexus S;Nexus5x;167;50;159;44;22;590;passandroid
 surf_fullscreen;Nexus S;Pixel 2xl;167;50;164;48;26;920;passandroid
-surf_fullscreen;Nexus S;Pixel;167;50;160;45;23;610;passandroid
-surf_fullscreen;Nexus S;Pixel XL;167;50;161;46;24;860;passandroid
 surf_fullscreen;Nexus S;Pixel 3XL;167;50;163;48;25;970;passandroid
-surf_fullscreen;Nexus S;Nexus 4;167;50;158;44;22;420;passandroid
+surf_fullscreen;Pixel 3;Nexus 4;170;52;167;48;27;830;passandroid
+surf_fullscreen;Pixel 3;Nexus 6p;170;52;159;48;25;1250;passandroid
+akaze_cropped;Pixel 3;Nexus5;170;52;165;49;26;1250;passandroid
+akaze_cropped;Pixel 3;Nexus5x;170;52;166;49;27;1230;passandroid
+akaze_cropped;Pixel 3;Pixel;170;52;166;49;27;1400;passandroid
+akaze_cropped;Pixel 3;Pixel 3;170;52;166;49;27;1480;passandroid
+akaze_cropped;Pixel 3;Pixel 3A;170;52;165;49;26;1380;passandroid
+sift_cropped;Nexus5;Nexus5x;170;52;168;49;29;1540;passandroid
+sift_cropped;Nexus5;Pixel 3a XL;170;52;162;49;24;1400;passandroid
+sift_cropped;Nexus S;Nexus5x;167;50;162;49;25;710;passandroid
+sift_cropped;Nexus S;Pixel 3a XL;167;50;146;49;13;840;passandroid
+surf_cropped;Pixel 3;Pixel 3XL;170;52;163;49;25;910;passandroid
+surf_cropped;Pixel 3;Pixel 3a XL;170;52;165;49;21;560;passandroid
+akaze_fullscreen;Nexus5;Nexus5x;170;52;166;49;27;1190;passandroid
+akaze_fullscreen;Nexus5;Pixel;170;52;166;49;27;1120;passandroid
+akaze_fullscreen;Nexus5;Nexus 4;170;52;163;49;25;960;passandroid
+akaze_fullscreen;Nexus5;Nexus 6p;170;52;155;49;21;1640;passandroid
+akaze_fullscreen;Nexus5;Pixel 3;170;52;166;49;27;1260;passandroid
+akaze_fullscreen;Nexus5;Pixel 3A;170;52;165;49;26;1320;passandroid
+akaze_fullscreen;Nexus S;Nexus5;167;50;162;49;25;650;passandroid
+akaze_fullscreen;Nexus S;Pixel 3;167;50;164;49;27;710;passandroid
+akaze_fullscreen;Pixel 3;Nexus5x;170;52;166;49;27;1230;passandroid
+akaze_fullscreen;Pixel 3;Pixel 2xl;170;52;166;49;27;1670;passandroid
+akaze_fullscreen;Pixel 3;Pixel;170;52;166;49;27;1230;passandroid
+akaze_fullscreen;Pixel 3;Pixel 2;170;52;160;49;26;1250;passandroid
+sift_fullscreen;Nexus5;Pixel 3XL;170;52;165;49;26;1860;passandroid
+sift_fullscreen;Nexus5;Pixel 3a XL;170;52;162;49;23;1310;passandroid
+sift_fullscreen;Nexus5;Pixel 2;170;52;159;49;27;1350;passandroid
+sift_fullscreen;Nexus S;Nexus5;167;50;162;49;26;780;passandroid
+sift_fullscreen;Pixel 3;Pixel 2;170;52;160;49;26;1330;passandroid
+surf_fullscreen;Nexus5;Nexus5x;170;52;166;49;27;1130;passandroid
+surf_fullscreen;Nexus5;Nexus 4;170;52;159;49;21;940;passandroid
+surf_fullscreen;Nexus5;Pixel 3a XL;170;52;165;49;27;1050;passandroid
+surf_fullscreen;Pixel 3;Pixel 3XL;170;52;165;49;25;1350;passandroid
+surf_fullscreen;Pixel 3;Pixel 3a XL;170;52;165;49;26;1010;passandroid
+sikuli;Nexus S;Nexus S;167;50;167;50;30;418;passandroid
+akaze_cropped;Nexus5;Pixel 3;170;52;167;50;28;1260;passandroid
+akaze_cropped;Pixel 3;Pixel 3a XL;170;52;165;50;26;2220;passandroid
+sift_cropped;Nexus5;Pixel 3;170;52;167;50;28;1420;passandroid
+sift_cropped;Nexus S;Nexus S;167;50;167;50;30;280;passandroid
+sift_cropped;Nexus S;Pixel 3;167;50;148;50;14;820;passandroid
+sift_cropped;Pixel 3;Nexus5;170;52;156;50;18;1340;passandroid
+sift_cropped;Pixel 3;Pixel 2xl;170;52;166;50;27;1990;passandroid
+sift_cropped;Pixel 3;Nexus 6p;170;52;154;50;21;1770;passandroid
+surf_cropped;Nexus5;Nexus S;167;50;136;50;10;850;passandroid
+surf_cropped;Nexus S;Nexus S;167;50;150;50;12;1300;passandroid
+surf_cropped;Pixel 3;Nexus5;170;52;157;50;21;620;passandroid
+surf_cropped;Pixel 3;Pixel XL;170;52;161;50;22;860;passandroid
+surf_cropped;Pixel 3;Nexus 6;170;52;165;50;26;880;passandroid
+surf_cropped;Pixel 3;Nexus 6p;170;52;158;50;24;900;passandroid
+surf_cropped;Pixel 3;Pixel 2;170;52;159;50;24;590;passandroid
+akaze_fullscreen;Nexus5;Pixel 2xl;170;52;160;50;21;1780;passandroid
+akaze_fullscreen;Nexus5;Pixel 3XL;170;52;159;50;20;1690;passandroid
+akaze_fullscreen;Nexus S;Nexus S;167;50;168;50;29;280;passandroid
+akaze_fullscreen;Pixel 3;Nexus5;170;52;167;50;28;1210;passandroid
+akaze_fullscreen;Pixel 3;Pixel XL;170;52;166;50;27;1560;passandroid
+akaze_fullscreen;Pixel 3;Pixel 3a XL;170;52;166;50;27;1260;passandroid
+akaze_fullscreen;Pixel 3;Nexus 6;170;52;166;50;27;1570;passandroid
+sift_fullscreen;Nexus5;Pixel 2xl;170;52;167;50;29;1990;passandroid
+sift_fullscreen;Nexus5;Nexus 6p;170;52;161;50;27;1800;passandroid
+sift_fullscreen;Pixel 3;Nexus5x;170;52;167;50;29;1270;passandroid
+sift_fullscreen;Pixel 3;Pixel;170;52;167;50;28;1250;passandroid
+sift_fullscreen;Pixel 3;Pixel 3a XL;170;52;161;50;25;1340;passandroid
+surf_fullscreen;Nexus5;Pixel;170;52;167;50;28;1020;passandroid
+surf_fullscreen;Nexus5;Nexus 6p;170;52;161;50;28;1400;passandroid
+surf_fullscreen;Nexus5;Pixel 3;170;52;167;50;28;1040;passandroid
 surf_fullscreen;Nexus S;Nexus S;167;50;169;50;30;380;passandroid
-surf_fullscreen;Nexus S;Pixel 3a XL;167;50;157;44;19;610;passandroid
-surf_fullscreen;Nexus S;Nexus 6 ;167;50;162;47;24;870;passandroid
-surf_fullscreen;Nexus S;Nexus 6p;167;50;156;46;23;840;passandroid
-surf_fullscreen;Nexus S;Pixel 2;167;50;152;44;20;580;passandroid
-surf_fullscreen;Nexus S;Pixel 3;167;50;159;45;21;640;passandroid
-surf_fullscreen;Nexus S;Pixel 3A;167;50;158;45;21;660;passandroid
 surf_fullscreen;Pixel 3;Nexus5;170;52;156;50;28;1050;passandroid
 surf_fullscreen;Pixel 3;Nexus5x;170;52;166;50;27;1050;passandroid
 surf_fullscreen;Pixel 3;Pixel 2xl;170;52;167;50;29;1340;passandroid
 surf_fullscreen;Pixel 3;Pixel;170;52;166;50;27;1110;passandroid
-surf_fullscreen;Pixel 3;Pixel XL;170;52;167;51;28;1270;passandroid
-surf_fullscreen;Pixel 3;Pixel 3XL;170;52;165;49;25;1350;passandroid
-surf_fullscreen;Pixel 3;Nexus 4;170;52;167;48;27;830;passandroid
-surf_fullscreen;Pixel 3;Nexus S;167;50;153;42;17;660;passandroid
-surf_fullscreen;Pixel 3;Pixel 3a XL;170;52;165;49;26;1010;passandroid
-surf_fullscreen;Pixel 3;Nexus 6 ;170;52;167;51;28;1260;passandroid
-surf_fullscreen;Pixel 3;Nexus 6p;170;52;159;48;25;1250;passandroid
 surf_fullscreen;Pixel 3;Pixel 2;170;52;160;50;26;1080;passandroid
+eyeautomate;Nexus5;Nexus S;234;77;148;51;2;314;antennapod
+eyeautomate;Pixel 3;Nexus S;234;77;122;51;0;932;antennapod
+surf_cropped;Nexus S;Nexus5x;234;77;154;51;2;2146;antennapod
+surf_cropped;Nexus S;Pixel;234;77;156;51;2;2208;antennapod
+surf_cropped;Nexus S;Nexus 4;234;77;155;51;3;1082;antennapod
+surf_cropped;Pixel 3;Nexus 4;234;77;172;51;4;1287;antennapod
+sikuli;Nexus5;Nexus5;170;52;169;51;29;349.8;passandroid
+akaze_cropped;Nexus5;Nexus5;170;52;168;51;29;1890;passandroid
+akaze_cropped;Nexus5;Pixel 3A;170;52;167;51;28;1310;passandroid
+sift_cropped;Pixel 3;Nexus5x;170;52;163;51;24;1330;passandroid
+sift_cropped;Pixel 3;Pixel XL;170;52;161;51;24;2050;passandroid
+sift_cropped;Pixel 3;Pixel 3XL;170;52;151;51;16;2180;passandroid
+sift_cropped;Pixel 3;Pixel 3a XL;170;52;167;51;28;2690;passandroid
+sift_cropped;Pixel 3;Nexus 6;170;52;160;51;23;1760;passandroid
+sift_cropped;Pixel 3;Pixel 2;170;52;155;51;21;1470;passandroid
+sift_cropped;Pixel 3;Pixel 3A;170;52;157;51;28;1490;passandroid
+surf_cropped;Nexus5;Nexus5;170;52;165;51;27;1140;passandroid
+surf_cropped;Pixel 3;Pixel;170;52;165;51;26;540;passandroid
+akaze_fullscreen;Nexus5;Pixel XL;170;52;163;51;24;1540;passandroid
+akaze_fullscreen;Nexus5;Pixel 3a XL;170;52;158;51;26;1210;passandroid
+akaze_fullscreen;Nexus5;Nexus 6;170;52;163;51;24;1740;passandroid
+akaze_fullscreen;Pixel 3;Pixel 3A;170;52;167;51;28;1330;passandroid
+sift_fullscreen;Nexus5;Nexus5x;170;52;167;51;28;1300;passandroid
+sift_fullscreen;Nexus5;Pixel;170;52;167;51;28;1240;passandroid
+sift_fullscreen;Nexus5;Pixel 3;170;52;166;51;27;1290;passandroid
+sift_fullscreen;Nexus5;Pixel 3A;170;52;166;51;27;1420;passandroid
+sift_fullscreen;Pixel 3;Nexus5;170;52;162;51;24;1310;passandroid
+sift_fullscreen;Pixel 3;Pixel 2xl;170;52;169;51;30;2020;passandroid
+sift_fullscreen;Pixel 3;Pixel XL;170;52;167;51;28;1820;passandroid
+sift_fullscreen;Pixel 3;Nexus 6p;170;52;162;51;28;1800;passandroid
+surf_fullscreen;Nexus5;Pixel 2xl;170;52;168;51;29;1420;passandroid
+surf_fullscreen;Nexus5;Pixel XL;170;52;167;51;28;1230;passandroid
+surf_fullscreen;Nexus5;Pixel 3XL;170;52;167;51;28;1360;passandroid
+surf_fullscreen;Nexus5;Nexus 6;170;52;167;51;28;1480;passandroid
+surf_fullscreen;Nexus5;Pixel 2;170;52;162;51;27;1120;passandroid
+surf_fullscreen;Nexus5;Pixel 3A;170;52;167;51;28;1170;passandroid
+surf_fullscreen;Pixel 3;Pixel XL;170;52;167;51;28;1270;passandroid
+surf_fullscreen;Pixel 3;Nexus 6;170;52;167;51;28;1260;passandroid
+akaze_cropped;Nexus5;Pixel 3a XL;234;77;106;52;1;1196;antennapod
+surf_cropped;Nexus S;Pixel 3;234;77;171;52;3;2470;antennapod
+sikuli;Pixel 3;Pixel 3;170;52;170;52;30;310.2;passandroid
+sikuli;Pixel 3;Pixel 3A;170;52;170;52;30;387.5;passandroid
+sift_cropped;Nexus5;Nexus5;170;52;168;52;29;1860;passandroid
+sift_cropped;Nexus5;Nexus S;167;50;155;50;20;1330;passandroid
+sift_cropped;Pixel 3;Pixel;170;52;159;52;20;1550;passandroid
+sift_cropped;Pixel 3;Pixel 3;170;52;169;52;30;1610;passandroid
+surf_cropped;Pixel 3;Nexus5x;170;52;165;52;26;580;passandroid
+surf_cropped;Pixel 3;Pixel 3;170;52;161;52;24;600;passandroid
+surf_cropped;Pixel 3;Pixel 3A;170;52;160;52;26;780;passandroid
+akaze_fullscreen;Nexus5;Nexus5;170;52;167;52;30;1410;passandroid
+akaze_fullscreen;Pixel 3;Pixel 3;170;52;169;52;30;1290;passandroid
+sift_fullscreen;Nexus5;Nexus5;170;52;169;52;30;1480;passandroid
+sift_fullscreen;Nexus5;Pixel XL;170;52;168;52;29;1730;passandroid
+sift_fullscreen;Nexus5;Nexus 6;170;52;168;52;29;2040;passandroid
+sift_fullscreen;Nexus S;Nexus S;167;50;169;50;30;310;passandroid
+sift_fullscreen;Pixel 3;Pixel 3XL;170;52;164;52;27;2000;passandroid
+sift_fullscreen;Pixel 3;Nexus 6;170;52;167;52;29;1800;passandroid
+sift_fullscreen;Pixel 3;Pixel 3;170;52;169;52;30;1310;passandroid
+sift_fullscreen;Pixel 3;Pixel 3A;170;52;168;52;29;1400;passandroid
+surf_fullscreen;Nexus5;Nexus5;170;52;169;52;30;1710;passandroid
 surf_fullscreen;Pixel 3;Pixel 3;170;52;169;52;30;1320;passandroid
 surf_fullscreen;Pixel 3;Pixel 3A;170;52;168;52;29;1400;passandroid
+akaze_cropped;Pixel 3;Pixel 2;234;77;167;53;3;1129;antennapod
+surf_cropped;Nexus S;Pixel 2;234;77;153;53;1;2133;antennapod
+eyeautomate;Nexus5;Pixel 3;234;77;182;54;4;428;antennapod
+akaze_cropped;Pixel 3;Pixel 2xl;234;77;149;54;1;1874;antennapod
+akaze_cropped;Pixel 3;Pixel 3XL;234;77;171;54;1;1891;antennapod
+surf_cropped;Nexus S;Nexus5;234;77;176;54;8;2102;antennapod
+surf_cropped;Nexus S;Pixel 3A;234;77;171;54;5;2444;antennapod
+akaze_cropped;Pixel 3;Nexus5;234;77;201;55;13;1383;antennapod
+akaze_cropped;Pixel 3;Pixel XL;234;77;148;55;1;1680;antennapod
+akaze_cropped;Pixel 3;Nexus 6;234;77;150;55;1;1694;antennapod
+akaze_cropped;Pixel 3;Nexus 6p;234;77;146;55;1;1586;antennapod
+eyeautomate;Pixel 3;Nexus5;234;77;153;58;2;269;antennapod
+akaze_cropped;Nexus5;Nexus5x;234;77;189;58;10;1067;antennapod
+eyeautomate;Nexus5;Pixel 3A;234;77;165;59;2;302;antennapod
+akaze_cropped;Nexus5;Pixel;234;77;196;59;12;979;antennapod
+akaze_cropped;Nexus5;Pixel 2;234;77;180;59;10;1146;antennapod
+akaze_cropped;Pixel 3;Nexus5x;234;77;176;59;3;1092;antennapod
+akaze_cropped;Pixel 3;Pixel 3a XL;234;77;164;59;2;1192;antennapod
+eyeautomate;Pixel 3;Pixel;234;77;140;60;2;369;antennapod
+akaze_cropped;Pixel 3;Pixel;234;77;177;60;3;1147;antennapod
+akaze_fullscreen;Nexus S;Pixel 3XL;234;77;207;61;12;1987;antennapod
+sift_fullscreen;Pixel 3;Nexus S;234;77;212;61;14;2892;antennapod
+akaze_cropped;Nexus5;Pixel 3;234;77;180;61;3;1199;antennapod
+akaze_cropped;Pixel 3;Pixel 3A;234;77;187;61;3;1490;antennapod
+surf_cropped;Nexus5;Pixel 3a XL;234;77;170;61;3;2591;antennapod
+akaze_fullscreen;Nexus S;Pixel XL;234;77;195;62;8;1755;antennapod
+akaze_cropped;Nexus5;Pixel 3A;234;77;182;62;3;1202;antennapod
+akaze_cropped;Pixel 3;Pixel 3;234;77;188;62;3;1390;antennapod
+surf_cropped;Nexus5;Pixel 2xl;234;77;183;63;5;3837;antennapod
+eyeautomate;Pixel 3;Nexus5x;234;77;195;64;6;461;antennapod
+akaze_fullscreen;Nexus S;Nexus 6;234;77;183;64;0;1773;antennapod
+surf_cropped;Nexus5;Pixel 3XL;234;77;183;64;4;3903;antennapod
+surf_cropped;Nexus5;Nexus 6p;234;77;180;64;5;3469;antennapod
+eyeautomate;Pixel 3;Nexus 6p;234;77;173;65;3;693;antennapod
+eyeautomate;Pixel 3;Pixel 2;234;77;131;65;1;486;antennapod
+akaze_fullscreen;Nexus S;Pixel 2xl;234;77;212;65;15;2055;antennapod
+sift_cropped;Nexus S;Pixel;234;77;175;65;1;2083;antennapod
+surf_cropped;Nexus5;Nexus5x;234;77;204;65;9;2287;antennapod
+surf_cropped;Nexus5;Pixel XL;234;77;182;65;4;3253;antennapod
+surf_cropped;Nexus5;Nexus 6;234;77;178;65;2;3361;antennapod
+surf_cropped;Pixel 3;Nexus 6p;234;77;146;65;1;3285;antennapod
+eyeautomate;Pixel 3;Pixel 3XL;234;77;177;66;2;748;antennapod
+sift_fullscreen;Nexus5;Nexus S;234;77;215;66;17;2279;antennapod
+surf_fullscreen;Nexus S;Pixel XL;234;77;178;66;4;3516;antennapod
+surf_fullscreen;Nexus S;Nexus 6;234;77;167;66;1;3854;antennapod
+sift_cropped;Nexus S;Pixel XL;234;77;175;66;1;3028;antennapod
+surf_cropped;Pixel 3;Pixel 3a XL;234;77;197;66;6;2560;antennapod
+akaze_fullscreen;Nexus S;Nexus 6p;234;77;184;67;1;1847;antennapod
+surf_fullscreen;Nexus S;Pixel 2xl;234;77;186;67;4;3816;antennapod
+akaze_cropped;Nexus5;Nexus5;234;77;222;67;20;1273;antennapod
+sift_cropped;Nexus5;Pixel 3XL;234;77;193;67;5;3645;antennapod
+sift_cropped;Nexus5;Nexus 6p;234;77;190;67;3;3249;antennapod
+sift_cropped;Nexus S;Nexus5x;234;77;177;67;3;2078;antennapod
+sift_cropped;Nexus S;Pixel 2xl;234;77;176;67;2;3235;antennapod
+sift_cropped;Nexus S;Pixel 3XL;234;77;176;67;2;3588;antennapod
+sift_cropped;Nexus S;Pixel 3a XL;234;77;178;67;1;2387;antennapod
+sift_cropped;Nexus S;Nexus 6p;234;77;177;67;2;2991;antennapod
+sift_cropped;Nexus S;Pixel 3A;234;77;174;67;0;2324;antennapod
+sift_cropped;Pixel 3;Nexus 4;234;77;199;67;7;1369;antennapod
+sift_cropped;Pixel 3;Pixel 3a XL;234;77;196;67;3;2823;antennapod
+surf_cropped;Nexus5;Pixel;234;77;202;67;10;2260;antennapod
+surf_cropped;Pixel 3;Pixel 2xl;234;77;160;67;1;3767;antennapod
+surf_cropped;Pixel 3;Pixel 3XL;234;77;168;67;1;3894;antennapod
+eyeautomate;Nexus5;Nexus 4;234;77;216;68;18;325;antennapod
+eyeautomate;Pixel 3;Pixel XL;234;77;159;68;3;547;antennapod
+surf_fullscreen;Nexus S;Nexus 6p;234;77;171;68;3;3933;antennapod
+sift_cropped;Nexus5;Pixel 2xl;234;77;190;68;3;3633;antennapod
+sift_cropped;Nexus5;Pixel XL;234;77;189;68;3;3402;antennapod
+sift_cropped;Nexus5;Nexus 6;234;77;193;68;3;3232;antennapod
+sift_cropped;Nexus S;Nexus 6;234;77;179;68;3;3113;antennapod
+sift_cropped;Nexus S;Pixel 2;234;77;177;68;2;2068;antennapod
+surf_cropped;Nexus5;Pixel 2;234;77;206;68;12;2409;antennapod
+surf_cropped;Pixel 3;Pixel XL;234;77;153;68;1;3501;antennapod
+surf_cropped;Pixel 3;Nexus 6;234;77;153;68;1;3541;antennapod
+akaze_fullscreen;Nexus S;Nexus5x;234;77;201;69;11;1150;antennapod
+akaze_fullscreen;Nexus S;Pixel;234;77;207;69;14;1047;antennapod
+akaze_fullscreen;Nexus S;Pixel 2;234;77;209;69;14;1417;antennapod
+surf_fullscreen;Nexus5;Pixel 3a XL;234;77;216;69;18;4396;antennapod
+surf_fullscreen;Nexus S;Pixel 3XL;234;77;196;69;6;4071;antennapod
+surf_fullscreen;Pixel 3;Nexus S;234;77;215;69;15;3303;antennapod
+sift_cropped;Nexus5;Pixel;234;77;180;69;3;2375;antennapod
+sift_cropped;Nexus5;Nexus 4;234;77;209;69;11;1442;antennapod
+sift_cropped;Nexus5;Pixel 2;234;77;179;69;3;2707;antennapod
+sift_cropped;Nexus5;Pixel 3;234;77;193;69;5;2652;antennapod
+sift_cropped;Nexus S;Pixel 3;234;77;176;69;1;2313;antennapod
+eyeautomate;Pixel 3;Nexus 6;234;77;158;70;1;535;antennapod
+sift_fullscreen;Nexus S;Pixel;234;77;218;70;14;2263;antennapod
+sift_cropped;Nexus5;Pixel 3A;234;77;197;70;6;2602;antennapod
+sift_cropped;Pixel 3;Nexus5;234;77;204;70;9;2977;antennapod
+eyeautomate;Pixel 3;Pixel 2xl;234;77;187;71;1;479;antennapod
+akaze_fullscreen;Nexus5;Pixel 2xl;234;77;219;71;17;2953;antennapod
+sift_fullscreen;Nexus S;Nexus5x;234;77;219;71;15;2408;antennapod
+sift_fullscreen;Nexus S;Pixel 2;234;77;218;71;14;3008;antennapod
+surf_fullscreen;Nexus5;Pixel 2xl;234;77;218;71;16;5009;antennapod
+surf_fullscreen;Nexus S;Pixel;234;77;216;71;18;2413;antennapod
+surf_fullscreen;Nexus S;Nexus 4;234;77;217;71;16;1553;antennapod
+surf_fullscreen;Nexus S;Pixel 3A;234;77;220;71;17;2862;antennapod
+sift_cropped;Nexus5;Nexus5x;234;77;193;71;4;2430;antennapod
+akaze_fullscreen;Nexus5;Pixel 3XL;234;77;221;72;18;3310;antennapod
+akaze_fullscreen;Nexus S;Pixel 3;234;77;221;72;20;1242;antennapod
+akaze_fullscreen;Nexus S;Pixel 3A;234;77;224;72;23;1288;antennapod
+sift_fullscreen;Nexus5;Pixel 3a XL;234;77;227;72;24;3909;antennapod
+surf_fullscreen;Nexus5;Nexus 6;234;77;216;72;15;4958;antennapod
+surf_fullscreen;Nexus S;Nexus5x;234;77;219;72;17;2625;antennapod
+surf_fullscreen;Nexus S;Pixel 3a XL;234;77;200;72;11;2832;antennapod
+surf_fullscreen;Nexus S;Pixel 2;234;77;219;72;17;3128;antennapod
+sift_cropped;Nexus S;Nexus 4;234;77;203;72;6;1153;antennapod
+sift_cropped;Pixel 3;Nexus5x;234;77;190;72;1;2378;antennapod
+eyeautomate;Pixel 3;Nexus 4;234;77;187;73;2;519;antennapod
+eyeautomate;Pixel 3;Pixel 3A;234;77;214;73;13;642;antennapod
+sikuli;Nexus5;Nexus5;234;77;226;73;23;272;antennapod
+akaze_fullscreen;Nexus S;Nexus5;234;77;219;73;19;1115;antennapod
+akaze_fullscreen;Nexus S;Nexus 4;234;77;219;73;19;693;antennapod
+akaze_fullscreen;Pixel 3;Nexus S;234;77;214;73;15;1457;antennapod
+sift_fullscreen;Nexus5;Nexus5x;234;77;230;73;27;6646;antennapod
+sift_fullscreen;Nexus5;Pixel 2xl;234;77;229;73;27;4797;antennapod
+sift_fullscreen;Nexus S;Pixel 3;234;77;224;73;20;2491;antennapod
+sift_fullscreen;Nexus S;Pixel 3A;234;77;224;73;21;2632;antennapod
+sift_fullscreen;Pixel 3;Pixel 3a XL;234;77;229;73;25;4427;antennapod
+surf_fullscreen;Nexus5;Pixel;234;77;224;73;20;4956;antennapod
+surf_fullscreen;Nexus5;Pixel XL;234;77;214;73;15;5663;antennapod
+surf_fullscreen;Nexus5;Pixel 3XL;234;77;217;73;16;5683;antennapod
+surf_fullscreen;Nexus S;Nexus5;234;77;223;73;19;2504;antennapod
+surf_fullscreen;Nexus S;Pixel 3;234;77;221;73;18;2708;antennapod
+sift_cropped;Nexus5;Pixel 3a XL;234;77;203;73;5;2637;antennapod
+sift_cropped;Nexus S;Nexus5;234;77;222;73;19;1946;antennapod
+surf_cropped;Nexus5;Pixel 3;234;77;226;73;25;2517;antennapod
+surf_cropped;Nexus5;Pixel 3A;234;77;224;73;20;2595;antennapod
+sikuli;Pixel 3;Pixel 3A;234;77;229;74;25;565;antennapod
+akaze_fullscreen;Nexus5;Nexus 6;234;77;228;74;24;4938;antennapod
+akaze_fullscreen;Nexus5;Pixel 3A;234;77;230;74;26;2549;antennapod
+akaze_fullscreen;Nexus S;Pixel 3a XL;234;77;217;74;16;1231;antennapod
+sift_fullscreen;Nexus5;Pixel;234;77;229;74;25;4205;antennapod
+sift_fullscreen;Nexus5;Pixel 3XL;234;77;230;74;27;5071;antennapod
+sift_fullscreen;Nexus5;Nexus 6;234;77;229;74;26;4671;antennapod
+sift_fullscreen;Nexus5;Pixel 3A;234;77;230;74;27;3805;antennapod
+sift_fullscreen;Nexus S;Pixel XL;234;77;214;74;16;3192;antennapod
+sift_fullscreen;Nexus S;Pixel 3XL;234;77;228;74;24;3784;antennapod
+sift_fullscreen;Nexus S;Nexus 4;234;77;224;74;21;1512;antennapod
+sift_fullscreen;Nexus S;Pixel 3a XL;234;77;223;74;19;2568;antennapod
+sift_fullscreen;Pixel 3;Nexus5;234;77;228;74;24;3934;antennapod
+sift_fullscreen;Pixel 3;Nexus 6;234;77;229;74;26;6147;antennapod
+surf_fullscreen;Nexus5;Nexus5x;234;77;223;74;20;4368;antennapod
+surf_fullscreen;Nexus5;Nexus S;234;77;217;74;17;2679;antennapod
+surf_fullscreen;Pixel 3;Pixel 3XL;234;77;229;74;25;6550;antennapod
+surf_fullscreen;Pixel 3;Nexus 4;234;77;220;74;17;4341;antennapod
+sift_cropped;Pixel 3;Pixel;234;77;192;74;1;2420;antennapod
+surf_cropped;Nexus S;Nexus S;234;77;229;74;25;677;antennapod
+surf_cropped;Pixel 3;Nexus5;234;77;215;74;15;2920;antennapod
+surf_cropped;Pixel 3;Nexus5x;234;77;218;74;17;2377;antennapod
+eyeautomate;Nexus5;Nexus5;234;77;215;75;15;396;antennapod
+eyeautomate;Pixel 3;Pixel 3;234;77;217;75;15;413;antennapod
+sikuli;Pixel 3;Pixel 3;234;77;230;75;26;292;antennapod
+akaze_fullscreen;Nexus5;Pixel;234;77;227;75;23;2609;antennapod
+akaze_fullscreen;Nexus5;Pixel XL;234;77;227;75;24;3312;antennapod
+akaze_fullscreen;Nexus5;Nexus S;234;77;229;75;26;1190;antennapod
+akaze_fullscreen;Nexus5;Pixel 3a XL;234;77;227;75;25;2312;antennapod
+akaze_fullscreen;Nexus5;Nexus 6p;234;77;229;75;25;5175;antennapod
+akaze_fullscreen;Nexus5;Pixel 2;234;77;225;75;21;2376;antennapod
+akaze_fullscreen;Pixel 3;Nexus 4;234;77;231;75;27;2318;antennapod
+sift_fullscreen;Nexus5;Nexus 6p;234;77;231;75;28;9101;antennapod
+sift_fullscreen;Nexus S;Nexus5;234;77;229;75;26;2264;antennapod
+sift_fullscreen;Nexus S;Pixel 2xl;234;77;226;75;25;3767;antennapod
+sift_fullscreen;Nexus S;Nexus 6;234;77;189;75;8;3459;antennapod
+sift_fullscreen;Nexus S;Nexus 6p;234;77;202;75;12;3501;antennapod
+sift_fullscreen;Pixel 3;Nexus5x;234;77;231;75;27;5198;antennapod
+sift_fullscreen;Pixel 3;Pixel;234;77;232;75;28;4014;antennapod
+surf_fullscreen;Nexus5;Nexus 6p;234;77;220;75;18;5331;antennapod
+surf_fullscreen;Nexus5;Pixel 2;234;77;224;75;20;4354;antennapod
+surf_fullscreen;Nexus5;Pixel 3A;234;77;231;75;27;4396;antennapod
+surf_fullscreen;Pixel 3;Nexus5x;234;77;231;75;27;6875;antennapod
+surf_fullscreen;Pixel 3;Pixel;234;77;231;75;27;4912;antennapod
+surf_fullscreen;Pixel 3;Nexus 6;234;77;229;75;25;6978;antennapod
+sift_cropped;Pixel 3;Pixel 2xl;234;77;224;75;23;3597;antennapod
+sift_cropped;Pixel 3;Pixel XL;234;77;225;75;23;3292;antennapod
+sift_cropped;Pixel 3;Pixel 3XL;234;77;221;75;20;3815;antennapod
+sift_cropped;Pixel 3;Nexus 6;234;77;224;75;22;3306;antennapod
+sift_cropped;Pixel 3;Nexus 6p;234;77;223;75;21;3292;antennapod
+sift_cropped;Pixel 3;Pixel 2;234;77;192;75;1;2403;antennapod
+surf_cropped;Pixel 3;Pixel;234;77;219;75;17;2482;antennapod
+surf_cropped;Pixel 3;Pixel 3A;234;77;231;75;27;3656;antennapod
+eyeautomate;Nexus S;Nexus S;234;77;220;76;18;362;antennapod
+sikuli;Nexus S;Nexus S;234;77;233;76;29;252;antennapod
+akaze_fullscreen;Nexus5;Nexus5x;234;77;226;76;23;3881;antennapod
+akaze_fullscreen;Nexus5;Nexus 4;234;77;231;76;28;3115;antennapod
+akaze_fullscreen;Nexus5;Pixel 3;234;77;232;76;28;2649;antennapod
+akaze_fullscreen;Nexus S;Nexus S;234;77;233;76;29;983;antennapod
+akaze_fullscreen;Pixel 3;Nexus5;234;77;230;76;26;2806;antennapod
+akaze_fullscreen;Pixel 3;Nexus5x;234;77;233;76;29;3825;antennapod
+akaze_fullscreen;Pixel 3;Pixel;234;77;233;76;29;2959;antennapod
+akaze_fullscreen;Pixel 3;Pixel 3a XL;234;77;233;76;29;2961;antennapod
+akaze_fullscreen;Pixel 3;Nexus 6p;234;77;233;76;29;3493;antennapod
+akaze_fullscreen;Pixel 3;Pixel 2;234;77;232;76;28;3050;antennapod
+akaze_fullscreen;Pixel 3;Pixel 3A;234;77;233;76;29;4045;antennapod
+sift_fullscreen;Nexus5;Nexus 4;234;77;232;76;28;5176;antennapod
+sift_fullscreen;Nexus5;Pixel 3;234;77;232;76;28;3744;antennapod
+sift_fullscreen;Nexus S;Nexus S;234;77;232;76;28;1146;antennapod
+sift_fullscreen;Pixel 3;Nexus 4;234;77;232;76;28;3743;antennapod
+sift_fullscreen;Pixel 3;Nexus 6p;234;77;231;76;27;5089;antennapod
+sift_fullscreen;Pixel 3;Pixel 2;234;77;232;76;28;4162;antennapod
+sift_fullscreen;Pixel 3;Pixel 3A;234;77;233;76;29;4732;antennapod
+surf_fullscreen;Nexus5;Pixel 3;234;77;232;76;28;4563;antennapod
+surf_fullscreen;Nexus S;Nexus S;234;77;232;76;28;1683;antennapod
+surf_fullscreen;Pixel 3;Pixel 2xl;234;77;232;76;28;6338;antennapod
+surf_fullscreen;Pixel 3;Pixel XL;234;77;231;76;27;6099;antennapod
+surf_fullscreen;Pixel 3;Nexus 6p;234;77;232;76;28;5932;antennapod
+surf_fullscreen;Pixel 3;Pixel 2;234;77;230;76;27;5136;antennapod
+surf_fullscreen;Pixel 3;Pixel 3A;234;77;233;76;29;7404;antennapod
+sift_cropped;Nexus S;Nexus S;234;77;232;76;28;739;antennapod
+sift_cropped;Pixel 3;Pixel 3A;234;77;233;76;29;3473;antennapod
+surf_cropped;Nexus5;Nexus5;234;77;232;76;28;2861;antennapod
+surf_cropped;Pixel 3;Pixel 2;234;77;219;76;13;2246;antennapod
+surf_cropped;Pixel 3;Pixel 3;234;77;232;76;28;3121;antennapod
+akaze_fullscreen;Nexus5;Nexus5;234;77;234;77;30;6896;antennapod
+akaze_fullscreen;Pixel 3;Pixel 2xl;234;77;234;77;30;4137;antennapod
+akaze_fullscreen;Pixel 3;Pixel XL;234;77;233;77;29;3693;antennapod
+akaze_fullscreen;Pixel 3;Pixel 3XL;234;77;234;77;30;4022;antennapod
+akaze_fullscreen;Pixel 3;Nexus 6;234;77;234;77;30;4021;antennapod
+akaze_fullscreen;Pixel 3;Pixel 3;234;77;234;77;30;4224;antennapod
+sift_fullscreen;Nexus5;Nexus5;234;77;234;77;30;7387;antennapod
+sift_fullscreen;Nexus5;Pixel XL;234;77;231;77;27;5830;antennapod
+sift_fullscreen;Nexus5;Pixel 2;234;77;233;77;29;3809;antennapod
+sift_fullscreen;Pixel 3;Pixel 2xl;234;77;234;77;30;5633;antennapod
+sift_fullscreen;Pixel 3;Pixel XL;234;77;231;77;27;5273;antennapod
+sift_fullscreen;Pixel 3;Pixel 3XL;234;77;233;77;29;5565;antennapod
+sift_fullscreen;Pixel 3;Pixel 3;234;77;234;77;30;4532;antennapod
+surf_fullscreen;Nexus5;Nexus5;234;77;234;77;30;5875;antennapod
+surf_fullscreen;Nexus5;Nexus 4;234;77;224;77;20;3324;antennapod
+surf_fullscreen;Pixel 3;Nexus5;234;77;232;77;28;4643;antennapod
+surf_fullscreen;Pixel 3;Pixel 3a XL;234;77;230;77;26;5004;antennapod
+surf_fullscreen;Pixel 3;Pixel 3;234;77;234;77;30;6893;antennapod
+sift_cropped;Nexus5;Nexus5;234;77;234;77;30;2647;antennapod
+sift_cropped;Pixel 3;Pixel 3;234;77;234;77;30;2967;antennapod

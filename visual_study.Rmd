@@ -20,6 +20,7 @@ library(knitr)
 library(lmPerm)
 library(rcompanion)
 library(ggpubr)
+library(effsize)
 
 
 ggplot2::update_geom_defaults("bar", list(fill = "steelblue",color=NA))
@@ -33,6 +34,7 @@ rq1_data$descriptor_mode=paste(rq1_data$descriptor,rq1_data$mode,sep=".")
 visual_data$percentage_interactions <- visual_data$interactions / visual_data$interaction_number
 visual_data$percentage_locators <- visual_data$locators / visual_data$locator_number
 visual_data$percentage_tests <- visual_data$tests / 30
+visual_data$time_seconds <- visual_data$found.time / 1000
 
 names(visual_data)[names(visual_data) == "ï..technique"] <- "technique"
 
@@ -68,10 +70,10 @@ rq1_average = rq1_data %>% group_by(descriptor,mode,source.device, target.device
 
 ## Results
 
-```{r rq1 boxplots, fig.height= 5, fig.width=6, echo=FALSE, include=FALSE}
+```{r rq1 boxplots, fig.height= 5, fig.width=6, echo=TRUE, include=FALSE}
 
 
-rq1_data %>%
+bp_rq1 = rq1_data %>%
   ggplot(aes(fill=mode, y=recall, x=interaction(descriptor,mode))) +
   scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
     facet_wrap(~source.device) +
@@ -80,6 +82,8 @@ rq1_data %>%
       theme(legend.position="none") +
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
     scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+bp_rq1
 
 
 rq1_data %>%
@@ -117,10 +121,13 @@ rq1_data %>%
 #     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1));
 # 
 
-
-
 gc()
+
 ```
+
+
+
+
 ```{r anova precision, fig.height= 5, fig.width=7, echo=FALSE, include=FALSE}
 
 
@@ -173,7 +180,7 @@ gc()
 
 
 
-```{r boxplots rq2, fig.height= 5, fig.width=6, echo=FALSE}
+```{r boxplots rq2, fig.height= 5, fig.width=7, echo=FALSE}
 level_order <- c("eyeautomate", "sikuli", "akaze_cropped", "sift_cropped", "surf_cropped", "akaze_fullscreen", "sift_fullscreen",  "surf_fullscreen")
 
 
@@ -214,20 +221,25 @@ bp_interactions #+ stat_compare_means(comparisons= my_comparisons) # Add pairwis
 
 
 bp_locators = visual_data %>%
-  ggplot(aes(fill=mode, y=percentage_locators, x = factor(technique, level = level_order))) +     
+  ggplot(aes(fill=mode, y=percentage_locators, x = factor(technique, level = level_order))) +     coord_flip() +
     #facet_wrap(~source) +
 
     geom_boxplot(outlier.alpha = 0.3) +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+   # theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  
+      scale_y_continuous(labels=percent) + xlab("") + ylab("Found locators") +
+
       scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
-    xlab("Technique") +
-    ylab("Found locators") +
-    theme(legend.position="none") +
+   # theme(legend.position="none") +
     scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
 
 bp_locators
 
+ggsave("rq2-boxplots-locators.pdf")
+
+
 #bp_locators + stat_compare_means(comparisons= my_comparisons) # Add pairwise comparisons p-value
+
 
 
 
@@ -251,36 +263,54 @@ visual_data %>%
 
 
 visual_data %>%
-  ggplot(aes(fill=mode, y=found.time, x = factor(technique, level = level_order))) +     
+  ggplot(aes(fill=mode, y=time_seconds, x = factor(technique, level = level_order))) +     coord_flip() +
     #facet_wrap(~source) +
 
     geom_boxplot() +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+    #theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
         scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
-    theme(legend.position="none") +
+    #theme(legend.position="none") +
 
-    xlab("Technique") +
-    ylab("Times for correct interaction") + 
+    xlab("") +
+    ylab("Times for correct interaction (s)") + 
     scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
+
+ggsave("rq2-boxplots-times.pdf")
+
+
+
+
+
+```
+
+
+
+```{r heatmap rq2, fig.height= 4, fig.width=8, echo=FALSE}
+
+
 
 
 scaley_names_rev=c('SURF - Fullscreen', 'SIFT - Fullscreen', 'AKAZE - Fullscreen', 'SURF - Cropped', 'SIFT - Cropped', 'AKAZE - Cropped', 'Sikuli', 'EyeAutomate')
 
 level_order_rev <- c("surf_fullscreen", "sift_fullscreen", "akaze_fullscreen", "surf_cropped", "sift_cropped", "akaze_cropped", "sikuli", "eyeautomate")
 
-names(visual_data)[names(visual_data) == "percentage_locators"] <- "Percentage of found locators"
+names(visual_data)[names(visual_data) == "percentage_locators"] <- "Found Locators"
 
-ggplot(visual_data %>% filter(technique=="sift_fullscreen"), aes(y = source, x=target, fill=`Percentage of found locators`)) + 
+ggplot(visual_data %>% filter(technique=="sift_fullscreen"), aes(y = source, x=target, fill=`Found Locators`)) + 
   geom_tile() +
-      scale_fill_gradient(low="#f4eeff", high="#424874") +
+      scale_fill_gradient(low="#f4eeff", high="#424874", labels = percent) +
 
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+   #9 theme(axis.text.x = element_text(vjust = 0.5, hjust=1)) +
   xlab("Target device") +
-  theme(legend.position="top") +
-  ylab("Source device")
+  theme(legend.position="right") +
+  ylab("Source device") + coord_flip()  
+
  # scale_y_discrete(labels = scaley_names_rev)
 
-names(visual_data)[names(visual_data) == "Percentage of found locators"] <- "percentage_locators"
+names(visual_data)[names(visual_data) == "Found Locators"] <- "percentage_locators"
+
+ggsave("rq2-heatmap.pdf")
+
 
 
 ```
@@ -331,6 +361,69 @@ PT = pairwisePermutationTest(locators ~ technique,
                              method="fdr")
 
 PT
+
+
+PT = pairwisePermutationTest(time ~ technique,
+                             data = visual_data,
+                             method="fdr")
+
+PT
+
+
+```
+
+
+```{r for}
+
+techlist <- c("eyeautomate", "sikuli", "akaze_cropped", "sift_cropped", "surf_cropped", "akaze_fullscreen", "sift_fullscreen", "surf_fullscreen")
+
+
+for (i in techlist) {
+   for (j in techlist) {
+     if (i != j) {
+       
+       sprintf("current comparison: %s - %s\n", i, j)
+
+     }
+   }
+}
+
+```
+
+```{r cliff}
+
+
+techlist <- c("eyeautomate", "sikuli", "akaze_cropped", "sift_cropped", "surf_cropped", "akaze_fullscreen", "sift_fullscreen", "surf_fullscreen")
+
+for (i in techlist) {
+   for (j in techlist) {
+     if (i != j) {
+       
+       curr_data <- visual_data %>% filter(technique==i | technique== j) %>% select(percentage_locators, technique)
+
+        curr_data <- curr_data %>% mutate(Group =
+                             case_when(technique ==i ~ 0, 
+                                       technique ==j ~ 1,
+                                       )
+        )
+        
+        treatment <- curr_data$percentage_locators
+        control2 <- curr_data$Group
+        res_cliff = cliff.delta(percentage_locators ~ control2, data = curr_data)
+        
+        sprintf("current comparison: %s - %s\n", i, j)
+        print(res_cliff)
+
+     }
+   }
+}
+
+
+
+
+
+
+
 
 
 ```
