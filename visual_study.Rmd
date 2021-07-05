@@ -27,8 +27,6 @@ ggplot2::update_geom_defaults("bar", list(fill = "steelblue",color=NA))
 ggplot2::update_geom_defaults("point", list(color = "steelblue",color=NA))
 ggplot2::update_geom_defaults("violin", list(fill = "steelblue",color="navy"))
 visual_data = read.csv("visual_csv_results2_all.csv",header=TRUE,sep=";",stringsAsFactors = TRUE);
-rq1_data = read.csv("results_new_tutti_2.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
-rq1_data$descriptor_mode=paste(rq1_data$descriptor,rq1_data$mode,sep=".")
 
 
 visual_data$percentage_interactions <- visual_data$interactions / visual_data$interaction_number
@@ -57,126 +55,11 @@ rq2_average = visual_data %>% group_by(technique) %>%
 
 
 
-rq1_average = rq1_data %>% group_by(descriptor,mode,source.device, target.device) %>%
-      summarise(mean_precision=mean(precision), mean_recall=mean(recall), mean_time=mean(time, na.rm=TRUE))
-
-
 
 
 ```
 
 
-
-
-## Results
-
-```{r rq1 boxplots, fig.height= 5, fig.width=6, echo=TRUE, include=FALSE}
-
-
-bp_rq1 = rq1_data %>%
-  ggplot(aes(fill=mode, y=recall, x=interaction(descriptor,mode))) +
-  scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
-    facet_wrap(~source.device) +
-  
-  geom_boxplot(outlier.alpha = 0.2) +  ylim(0,1) + 
-      theme(legend.position="none") +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-    scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
-
-bp_rq1
-
-
-rq1_data %>%
-  ggplot(aes(fill=mode, y=precision, x=interaction(descriptor,mode))) +
-    scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
-    facet_wrap(~source.device) +
-  geom_boxplot(outlier.alpha = 0.2) +  ylim(0,1) +
-      theme(legend.position="none") +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-    scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
-
-rq1_data %>%
-  ggplot(aes(fill=mode, y=time, x=interaction(descriptor,mode))) +
-    scale_fill_manual(values=c("#f4eeff", "#a6b1e1")) +
-    facet_wrap(~source.device) +
-  geom_boxplot(outlier.alpha = 0.2) +
-      theme(legend.position="none") +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-    scale_x_discrete(labels = c('AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
-
-
-
-#se consideriamo prima un grouping con le medie per descriptor, modalità, source, target (in questo modo otteniamo 13 valori per ciascuna coppia di target e di quelli si fa il boxplot)
-
-# rq1_average %>%
-#   ggplot(aes(fill=source.device, y=mean_recall, x=interaction(descriptor,mode))) +
-#     facet_wrap(~source.device) +
-#   geom_boxplot() +  ylim(0,1) +
-#     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
-# 
-# rq1_average %>%
-#   ggplot(aes(fill=source.device, y=mean_precision, x=interaction(descriptor,mode))) +
-#     facet_wrap(~source.device) +
-#   geom_boxplot() + ylim(0,1) +
-#     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1));
-# 
-
-gc()
-
-```
-
-
-
-
-```{r anova precision, fig.height= 5, fig.width=7, echo=FALSE, include=FALSE}
-
-
-#summary(aovp(precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
-
-
-#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
-
-#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
-
-gc()
-
-
-
-```
-
-
-
-```{r anova recall, fig.height= 5, fig.width=7, echo=FALSE}
-
-
-#summary(aovp(recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
-
-
-#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
-
-#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average))
-
-gc()
-
-
-
-```
-
-```{r pairwise permutation test recall, fig.height= 5, fig.width=7, echo=FALSE, include=FALSE}
-
-
-pairwisePermutationTest(precision ~ descriptor_mode,
-                             data = rq1_data,
-                             method="fdr")
-
-pairwisePermutationTest(recall ~ descriptor_mode,
-                             data = rq1_data,
-                             method="fdr")
-
-
-gc()
-
-```
 
 
 
@@ -218,24 +101,6 @@ bp_interactions #+ stat_compare_means(comparisons= my_comparisons) # Add pairwis
 
 
 
-
-
-bp_locators = visual_data %>%
-  ggplot(aes(fill=mode, y=percentage_locators, x = factor(technique, level = level_order))) +     coord_flip() +
-    #facet_wrap(~source) +
-
-    geom_boxplot(outlier.alpha = 0.3) +
-   # theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-  
-      scale_y_continuous(labels=percent) + xlab("") + ylab("Found locators") +
-
-      scale_fill_manual(values=c("#f4eeff", "#a6b1e1", "#424874")) +
-   # theme(legend.position="none") +
-    scale_x_discrete(labels = c('EyeAutomate', 'Sikuli', 'AKAZE - Cropped', 'SIFT - Cropped', 'SURF - Cropped', 'AKAZE - Fullscreen', 'SIFT - Fullscreen', 'SURF - Fullscreen'))
-
-bp_locators
-
-ggsave("rq2-boxplots-locators.pdf")
 
 
 #bp_locators + stat_compare_means(comparisons= my_comparisons) # Add pairwise comparisons p-value
@@ -296,16 +161,6 @@ level_order_rev <- c("surf_fullscreen", "sift_fullscreen", "akaze_fullscreen", "
 
 names(visual_data)[names(visual_data) == "percentage_locators"] <- "Found Locators"
 
-ggplot(visual_data %>% filter(technique=="sift_fullscreen"), aes(y = source, x=target, fill=`Found Locators`)) + 
-  geom_tile() +
-      scale_fill_gradient(low="#f4eeff", high="#424874", labels = percent) +
-
-   #9 theme(axis.text.x = element_text(vjust = 0.5, hjust=1)) +
-  xlab("Target device") +
-  theme(legend.position="right") +
-  ylab("Source device") + coord_flip()  
-
- # scale_y_discrete(labels = scaley_names_rev)
 
 names(visual_data)[names(visual_data) == "Found Locators"] <- "percentage_locators"
 
