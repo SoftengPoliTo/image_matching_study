@@ -29,18 +29,9 @@ rq1_data = read.csv("results_metrics_sum_sikuli.csv",header=TRUE,sep=";", string
 rq1_average_2 = read.csv("rq1_average.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
 differences_data = read.csv("different_component.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
 
-visual_data = read.csv("visual_csv_results2.csv",header=TRUE,sep=";",stringsAsFactors = TRUE);
 
 
 
-visual_data$percentage_interactions <- visual_data$interactions / visual_data$interaction_number
-visual_data$percentage_locators <- visual_data$locators / visual_data$locator_number
-visual_data$percentage_tests <- visual_data$tests / 30
-
-
-
-names(visual_data)[names(visual_data) == "percentage_tests"] <- "Percentage of passing tests"
-names(visual_data)[names(visual_data) == "percentage_locators"] <- "Percentage of found locators"
 
 ```
 
