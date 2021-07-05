@@ -1,0 +1,204 @@
+---
+title: "RQ2 analysis"
+output:
+  pdf_document: 
+    keep_tex:  yes
+  html_document: default
+  header-includes:
+   - \usepackage{booktabs}
+   - \usepackage{caption}
+  
+---
+
+
+
+```{r setup, include=FALSE}
+gc()
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(ggplot2)
+library(knitr)
+library(lmPerm)
+library(rcompanion)
+ggplot2::update_geom_defaults("bar", list(fill = "steelblue",color=NA))
+ggplot2::update_geom_defaults("point", list(color = "steelblue",color=NA))
+ggplot2::update_geom_defaults("violin", list(fill = "steelblue",color="navy"))
+visual_data_perm = read.csv("results_metrics_sum_sikuli_perm.csv",header=TRUE,sep=";",stringsAsFactors = TRUE);
+rq1_data = read.csv("results_metrics_sum_sikuli.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
+rq1_average_2 = read.csv("rq1_average.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
+differences_data = read.csv("different_component.csv",header=TRUE,sep=";", stringsAsFactors = TRUE);
+
+visual_data = read.csv("visual_csv_results2.csv",header=TRUE,sep=";",stringsAsFactors = TRUE);
+
+
+
+visual_data$percentage_interactions <- visual_data$interactions / visual_data$interaction_number
+visual_data$percentage_locators <- visual_data$locators / visual_data$locator_number
+visual_data$percentage_tests <- visual_data$tests / 30
+
+
+
+names(visual_data)[names(visual_data) == "percentage_tests"] <- "Percentage of passing tests"
+names(visual_data)[names(visual_data) == "percentage_locators"] <- "Percentage of found locators"
+
+```
+
+```{r , fig.height= 5, fig.width=7, echo=FALSE}
+
+#RQ1
+
+differences_data %>%
+   ggplot(aes(fill=source, y=Percentage.of.differently.rendered.widgets,x=Target.Device))  +
+   facet_wrap(~source) +
+    
+  geom_boxplot() +  ylim(0,200) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+      scale_fill_manual(values=c("#f4eeff","#a6b1e1","#424874"))
+
+
+
+
+
+
+```
+
+```{r , fig.height= 5, fig.width=7, echo=FALSE}
+
+differences_data %>%
+   ggplot(aes(fill=source, y=Percentage.of.differently.rendered.widgets,x=Target.Device))  +
+   scale_fill_manual(values=c("#e0f5f9", "#27cdff", "#123f7a"))+
+  geom_bar(colour = "black",stat="identity",position = position_dodge(preserve = "single"))+
+  
+  geom_linerange( aes(ymin=Percentage.of.differently.rendered.widgets-sd,
+                       ymax=Percentage.of.differently.rendered.widgets+sd), position=position_dodge(width=0.9),colour="orange", alpha=0.5, size=1.)+
+  
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+   
+ 
+    
+  
+
+   theme(legend.position="top")
+
+
+
+
+
+```
+
+\newpage
+
+
+
+
+## Results
+
+```{r , fig.height= 5, fig.width=7, echo=FALSE}
+
+#se non consideriamo prima il grouping, precision non plottabile (1/0)
+
+level_order <- c('akaze.cropped', 'akaze.fullscreen', 'sift.cropped', 'sift.fullscreen','surf.cropped', 'surf.fullscreen', 'sikuli.cropped')
+rq1_data %>%
+  ggplot(aes(fill=descriptor, y=recall, x=factor(interaction(descriptor,mode), level = level_order) )) +
+   xlab("interaction(descriptor,mode)") +
+    facet_wrap(~source.device) +
+   scale_fill_manual(values=c("#2e3b51","#e4eeff","#c8dcff","#ffffff"))+
+  geom_boxplot() +  ylim(0,1) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+ggsave("rq1 boxplots-2-v2.pdf")
+
+level_order <- c('akaze.cropped', 'akaze.fullscreen', 'sift.cropped', 'sift.fullscreen','surf.cropped', 'surf.fullscreen', 'sikuli.cropped')
+rq1_data %>%
+  ggplot(aes(fill=descriptor, y=precision, x=factor(interaction(descriptor,mode), level = level_order) )) +
+     scale_fill_manual(values=c("#2e3b51","#e4eeff","#c8dcff","#ffffff"))+
+    facet_wrap(~source.device) +
+   xlab("interaction(descriptor,mode)") +
+  geom_boxplot() +  ylim(0,1) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1));
+
+ggsave("rq1 boxplots-3-v2.pdf")
+
+#se consideriamo prima un grouping con le medie per descriptor, modalità, source, target (in questo modo otteniamo 13 valori per ciascuna coppia di target e di quelli si fa il boxplot)
+
+
+rq1_average_2 %>%
+  ggplot(aes(fill=descriptor, y=mean_recall, x=factor(interaction(descriptor,mode), level = level_order) )) +
+    facet_wrap(~source.device) +
+   xlab("interaction(descriptor,mode)") +
+   scale_fill_manual(values=c("#2e3b51","#e4eeff","#c8dcff","#ffffff"))+
+  geom_boxplot() +  ylim(0,1) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+ggsave("rq1_average_2.pdf")
+
+level_order <- c('akaze.cropped', 'akaze.fullscreen', 'sift.cropped', 'sift.fullscreen','surf.cropped', 'surf.fullscreen', 'sikuli.cropped')
+rq1_average_2 %>%
+  ggplot(aes(fill=descriptor, y=mean_precision, x=factor(interaction(descriptor,mode), level = level_order) )) +
+   xlab("interaction(descriptor,mode)") +
+    facet_wrap(~source.device) +
+     scale_fill_manual(values=c("#2e3b51","#e4eeff","#c8dcff","#ffffff"))+
+  geom_boxplot() + ylim(0,1) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1));
+```
+
+
+```{r aov recall e precision, fig.height= 5, fig.width=7, echo=FALSE}
+summary(aov(precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
+
+
+summary(aov(recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
+
+
+#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average_2))
+
+#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average_2))
+
+```
+
+
+
+```{r anova precision, fig.height= 5, fig.width=7, echo=FALSE, include=FALSE}
+#rq1
+summary(aovp(precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
+#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average_2))
+#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average_2))
+gc()
+```
+
+
+
+```{r anova recall1, fig.height= 5, fig.width=7, echo=FALSE}
+#rq1
+summary(aovp(recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device + Error(app), data=rq1_data))
+#summary(aov(mean_precision ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average_2))
+#summary(aov(mean_recall ~  descriptor + mode + descriptor*mode + source.device*target.device + source.device + target.device , data=rq1_average_2))
+gc()
+```
+
+
+```{r permutation precision, fig.height= 5, fig.width=7, echo=FALSE}
+#rq1
+PT =pairwisePermutationTest(precision ~ descriptor,
+                             data = visual_data_perm,
+                             method="fdr")
+
+PT
+
+```
+
+
+
+```{r permutation recall}
+
+#RQ1
+PT=pairwisePermutationTest(recall ~ descriptor,
+                             data = visual_data_perm,
+                             method="fdr")
+
+PT
+
+```
+
+

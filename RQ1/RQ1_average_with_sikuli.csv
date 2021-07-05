@@ -1,0 +1,235 @@
+descriptor;mode;source.device;target.device;mean_precision;mean_recall;mean_time
+akaze;cropped;Google Nexus 5;Google_Nexus_4;0.8252833;0.7768415;Na
+akaze;cropped;Google Nexus 5;Google_Nexus_5X;0.9145201;0.8184298;Na
+akaze;cropped;Google Nexus 5;Nexus_6_API_25;0.9129347;0.8157298;Na
+akaze;cropped;Google Nexus 5;Nexus_6P_API_25;0.9113914;0.8155787;Na
+akaze;cropped;Google Nexus 5;Nexus_S_API;0.6564732;0.7381521;Na
+akaze;cropped;Google Nexus 5;Pixel_2_API_25;0.9279239;0.8174117;Na
+akaze;cropped;Google Nexus 5;Pixel_2_XL_API_25;0.9084921;0.8152989;Na
+akaze;cropped;Google Nexus 5;Pixel_3_API_25;0.9382767;0.8215979;Na
+akaze;cropped;Google Nexus 5;Pixel_3_XL_API_25;0.9063837;0.8125628;Na
+akaze;cropped;Google Nexus 5;Pixel_3a_API_25;0.9430087;0.8156362;Na
+akaze;cropped;Google Nexus 5;Pixel_3a_XL_API_25;0.9321156;0.8096074;Na
+akaze;cropped;Google Nexus 5;Pixel_API_25;0.8281398;0.7678606;Na
+akaze;cropped;Google Nexus 5;Pixel_XL_API_25;0.9090696;0.8171979;Na
+akaze;cropped;Nexus_S_API;Google Nexus 5;0.8702001;0.4771766;Na
+akaze;cropped;Nexus_S_API;Google_Nexus_4;0.8298506;0.4509064;Na
+akaze;cropped;Nexus_S_API;Google_Nexus_5X;0.8483029;0.4666809;Na
+akaze;cropped;Nexus_S_API;Nexus_6_API_25;0.7767477;0.4497989;Na
+akaze;cropped;Nexus_S_API;Nexus_6P_API_25;0.7607903;0.4474809;Na
+akaze;cropped;Nexus_S_API;Pixel_2_API_25;0.8585866;0.4715585;Na
+akaze;cropped;Nexus_S_API;Pixel_2_XL_API_25;0.7642604;0.4387011;Na
+akaze;cropped;Nexus_S_API;Pixel_3_API_25;0.848864;0.4601532;Na
+akaze;cropped;Nexus_S_API;Pixel_3_XL_API_25;0.7526596;0.4360691;Na
+akaze;cropped;Nexus_S_API;Pixel_3a_API_25;0.8514603;0.4602947;Na
+akaze;cropped;Nexus_S_API;Pixel_3a_XL_API_25;0.8532161;0.4602894;Na
+akaze;cropped;Nexus_S_API;Pixel_API_25;0.8311803;0.4525447;Na
+akaze;cropped;Nexus_S_API;Pixel_XL_API_25;0.7590172;0.4467713;Na
+akaze;cropped;Pixel_3_XL_API_25;Google Nexus 5;0.8869676;0.8597457;Na
+akaze;cropped;Pixel_3_XL_API_25;Google_Nexus_4;0.7424583;0.8376787;Na
+akaze;cropped;Pixel_3_XL_API_25;Google_Nexus_5X;0.807226;0.8638532;Na
+akaze;cropped;Pixel_3_XL_API_25;Nexus_6_API_25;0.9249693;0.8862298;Na
+akaze;cropped;Pixel_3_XL_API_25;Nexus_6P_API_25;0.924876;0.882683;Na
+akaze;cropped;Pixel_3_XL_API_25;Nexus_S_API;0.5604173;0.7962904;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_2_API_25;0.7929902;0.8563936;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_2_XL_API_25;0.9415015;0.882183;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_3_API_25;0.8255582;0.8634394;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_3a_API_25;0.8388273;0.8659798;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_3a_XL_API_25;0.8296592;0.8628394;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_API_25;0.7328974;0.8369489;Na
+akaze;cropped;Pixel_3_XL_API_25;Pixel_XL_API_25;0.9249693;0.8844564;Na
+akaze;fullscreen;Google Nexus 5;Google_Nexus_4;0.9227171;0.9028713;Na
+akaze;fullscreen;Google Nexus 5;Google_Nexus_5X;0.9588015;0.9238372;Na
+akaze;fullscreen;Google Nexus 5;Nexus_6_API_25;0.9773469;0.8990819;Na
+akaze;fullscreen;Google Nexus 5;Nexus_6P_API_25;0.9808979;0.9029777;Na
+akaze;fullscreen;Google Nexus 5;Nexus_S_API;0.7409995;0.8539543;Na
+akaze;fullscreen;Google Nexus 5;Pixel_2_API_25;0.9528716;0.9354202;Na
+akaze;fullscreen;Google Nexus 5;Pixel_2_XL_API_25;0.9481235;0.8629543;Na
+akaze;fullscreen;Google Nexus 5;Pixel_3_API_25;0.9657934;0.9248989;Na
+akaze;fullscreen;Google Nexus 5;Pixel_3_XL_API_25;0.9497996;0.8593128;Na
+akaze;fullscreen;Google Nexus 5;Pixel_3a_API_25;0.9651728;0.9150149;Na
+akaze;fullscreen;Google Nexus 5;Pixel_3a_XL_API_25;0.9607734;0.9132362;Na
+akaze;fullscreen;Google Nexus 5;Pixel_API_25;0.9503481;0.9351074;Na
+akaze;fullscreen;Google Nexus 5;Pixel_XL_API_25;0.9804497;0.9042947;Na
+akaze;fullscreen;Nexus_S_API;Google Nexus 5;0.9252809;0.8556426;Na
+akaze;fullscreen;Nexus_S_API;Google_Nexus_4;0.9016054;0.8866436;Na
+akaze;fullscreen;Nexus_S_API;Google_Nexus_5X;0.8905669;0.8291011;Na
+akaze;fullscreen;Nexus_S_API;Nexus_6_API_25;0.9046792;0.782317;Na
+akaze;fullscreen;Nexus_S_API;Nexus_6P_API_25;0.901922;0.7627011;Na
+akaze;fullscreen;Nexus_S_API;Pixel_2_API_25;0.888857;0.8081511;Na
+akaze;fullscreen;Nexus_S_API;Pixel_2_XL_API_25;0.8850765;0.7302106;Na
+akaze;fullscreen;Nexus_S_API;Pixel_3_API_25;0.9044648;0.8045564;Na
+akaze;fullscreen;Nexus_S_API;Pixel_3_XL_API_25;0.8747152;0.7418085;Na
+akaze;fullscreen;Nexus_S_API;Pixel_3a_API_25;0.9110325;0.7935936;Na
+akaze;fullscreen;Nexus_S_API;Pixel_3a_XL_API_25;0.9120127;0.7945032;Na
+akaze;fullscreen;Nexus_S_API;Pixel_API_25;0.8994304;0.8933436;Na
+akaze;fullscreen;Nexus_S_API;Pixel_XL_API_25;0.8817494;0.7638372;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Google Nexus 5;0.9640244;0.8927415;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Google_Nexus_4;0.8655127;0.8823394;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Google_Nexus_5X;0.9663525;0.9312915;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Nexus_6_API_25;0.9722222;0.9017096;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Nexus_6P_API_25;0.9735731;0.9099915;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Nexus_S_API;0.6276463;0.8236947;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_2_API_25;0.9287328;0.9100064;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_2_XL_API_25;0.9807814;0.9518979;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_3_API_25;0.9552008;0.9314926;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_3a_API_25;0.9597015;0.9393553;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_3a_XL_API_25;0.9516325;0.9285489;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_API_25;0.8783748;0.9098862;Na
+akaze;fullscreen;Pixel_3_XL_API_25;Pixel_XL_API_25;0.9722222;0.8992138;Na
+sift;cropped;Google Nexus 5;Google_Nexus_4;0.9229168;0.9587819;Na
+sift;cropped;Google Nexus 5;Google_Nexus_5X;0.9330988;0.956483;Na
+sift;cropped;Google Nexus 5;Nexus_6_API_25;0.9366658;0.9624468;Na
+sift;cropped;Google Nexus 5;Nexus_6P_API_25;0.9390648;0.9626926;Na
+sift;cropped;Google Nexus 5;Nexus_S_API;0.8478766;0.9578138;Na
+sift;cropped;Google Nexus 5;Pixel_2_API_25;0.9429256;0.9627755;Na
+sift;cropped;Google Nexus 5;Pixel_2_XL_API_25;0.9273725;0.961216;Na
+sift;cropped;Google Nexus 5;Pixel_3_API_25;0.9326166;0.9612553;Na
+sift;cropped;Google Nexus 5;Pixel_3_XL_API_25;0.9198213;0.9517926;Na
+sift;cropped;Google Nexus 5;Pixel_3a_API_25;0.9272094;0.9628298;Na
+sift;cropped;Google Nexus 5;Pixel_3a_XL_API_25;0.9197604;0.951133;Na
+sift;cropped;Google Nexus 5;Pixel_API_25;0.9310007;0.9598489;Na
+sift;cropped;Google Nexus 5;Pixel_XL_API_25;0.9265331;0.9626404;Na
+sift;cropped;Nexus_S_API;Google Nexus 5;0.921756;0.9492053;Na
+sift;cropped;Nexus_S_API;Google_Nexus_4;0.9099058;0.9447319;Na
+sift;cropped;Nexus_S_API;Google_Nexus_5X;0.8972945;0.9525351;Na
+sift;cropped;Nexus_S_API;Nexus_6_API_25;0.9008708;0.949533;Na
+sift;cropped;Nexus_S_API;Nexus_6P_API_25;0.8944137;0.9539032;Na
+sift;cropped;Nexus_S_API;Pixel_2_API_25;0.9038299;0.9536894;Na
+sift;cropped;Nexus_S_API;Pixel_2_XL_API_25;0.8735814;0.9511213;Na
+sift;cropped;Nexus_S_API;Pixel_3_API_25;0.8865881;0.949316;Na
+sift;cropped;Nexus_S_API;Pixel_3_XL_API_25;0.8882449;0.9435511;Na
+sift;cropped;Nexus_S_API;Pixel_3a_API_25;0.8897555;0.9417894;Na
+sift;cropped;Nexus_S_API;Pixel_3a_XL_API_25;0.8875148;0.9397053;Na
+sift;cropped;Nexus_S_API;Pixel_API_25;0.903405;0.94545;Na
+sift;cropped;Nexus_S_API;Pixel_XL_API_25;0.8925206;0.9526947;Na
+sift;cropped;Pixel_3_XL_API_25;Google Nexus 5;0.926367;0.9499489;Na
+sift;cropped;Pixel_3_XL_API_25;Google_Nexus_4;0.8738429;0.9493883;Na
+sift;cropped;Pixel_3_XL_API_25;Google_Nexus_5X;0.9348018;0.9548085;Na
+sift;cropped;Pixel_3_XL_API_25;Nexus_6_API_25;0.9318784;0.9538511;Na
+sift;cropped;Pixel_3_XL_API_25;Nexus_6P_API_25;0.9338447;0.9519404;Na
+sift;cropped;Pixel_3_XL_API_25;Nexus_S_API;0.7837458;0.9500521;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_2_API_25;0.9072516;0.9519957;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_2_XL_API_25;0.9441782;0.9498979;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_3_API_25;0.9201815;0.9418713;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_3a_API_25;0.9246663;0.954434;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_3a_XL_API_25;0.9258481;0.9503489;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_API_25;0.8840402;0.9514202;Na
+sift;cropped;Pixel_3_XL_API_25;Pixel_XL_API_25;0.9301869;0.9524021;Na
+sift;fullscreen;Google Nexus 5;Google_Nexus_4;0.9449584;0.9456085;Na
+sift;fullscreen;Google Nexus 5;Google_Nexus_5X;0.9529214;0.9202255;Na
+sift;fullscreen;Google Nexus 5;Nexus_6_API_25;0.9736425;0.8976713;Na
+sift;fullscreen;Google Nexus 5;Nexus_6P_API_25;0.9677788;0.891683;Na
+sift;fullscreen;Google Nexus 5;Nexus_S_API;0.8179073;0.9235394;Na
+sift;fullscreen;Google Nexus 5;Pixel_2_API_25;0.9467541;0.9385287;Na
+sift;fullscreen;Google Nexus 5;Pixel_2_XL_API_25;0.9555139;0.8589415;Na
+sift;fullscreen;Google Nexus 5;Pixel_3_API_25;0.9441161;0.9138383;Na
+sift;fullscreen;Google Nexus 5;Pixel_3_XL_API_25;0.958188;0.8420404;Na
+sift;fullscreen;Google Nexus 5;Pixel_3a_API_25;0.9499715;0.9139872;Na
+sift;fullscreen;Google Nexus 5;Pixel_3a_XL_API_25;0.9600049;0.9155628;Na
+sift;fullscreen;Google Nexus 5;Pixel_API_25;0.9412439;0.9559723;Na
+sift;fullscreen;Google Nexus 5;Pixel_XL_API_25;0.9635127;0.8985138;Na
+sift;fullscreen;Nexus_S_API;Google Nexus 5;0.9328847;0.8909957;Na
+sift;fullscreen;Nexus_S_API;Google_Nexus_4;0.9081804;0.9202723;Na
+sift;fullscreen;Nexus_S_API;Google_Nexus_5X;0.92095;0.8452777;Na
+sift;fullscreen;Nexus_S_API;Nexus_6_API_25;0.9319345;0.7590734;Na
+sift;fullscreen;Nexus_S_API;Nexus_6P_API_25;0.9466006;0.7896638;Na
+sift;fullscreen;Nexus_S_API;Pixel_2_API_25;0.9127164;0.8319234;Na
+sift;fullscreen;Nexus_S_API;Pixel_2_XL_API_25;0.9159469;0.7722043;Na
+sift;fullscreen;Nexus_S_API;Pixel_3_API_25;0.9115233;0.841533;Na
+sift;fullscreen;Nexus_S_API;Pixel_3_XL_API_25;0.910432;0.7430915;Na
+sift;fullscreen;Nexus_S_API;Pixel_3a_API_25;0.9087765;0.821984;Na
+sift;fullscreen;Nexus_S_API;Pixel_3a_XL_API_25;0.9096096;0.8259606;Na
+sift;fullscreen;Nexus_S_API;Pixel_API_25;0.9048151;0.922784;Na
+sift;fullscreen;Nexus_S_API;Pixel_XL_API_25;0.9292657;0.7899128;Na
+sift;fullscreen;Pixel_3_XL_API_25;Google Nexus 5;0.937719;0.8789883;Na
+sift;fullscreen;Pixel_3_XL_API_25;Google_Nexus_4;0.9041453;0.9046181;Na
+sift;fullscreen;Pixel_3_XL_API_25;Google_Nexus_5X;0.9523969;0.9237809;Na
+sift;fullscreen;Pixel_3_XL_API_25;Nexus_6_API_25;0.9611243;0.9062436;Na
+sift;fullscreen;Pixel_3_XL_API_25;Nexus_6P_API_25;0.9653628;0.900467;Na
+sift;fullscreen;Pixel_3_XL_API_25;Nexus_S_API;0.7395445;0.8665574;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_2_API_25;0.9274822;0.9155436;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_2_XL_API_25;0.9734991;0.9499979;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_3_API_25;0.9357673;0.9196043;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_3a_API_25;0.9561521;0.942516;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_3a_XL_API_25;0.955072;0.9299234;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_API_25;0.9197475;0.9121394;Na
+sift;fullscreen;Pixel_3_XL_API_25;Pixel_XL_API_25;0.9626218;0.9096213;Na
+surf;cropped;Google Nexus 5;Google_Nexus_4;0.825035;0.9371766;Na
+surf;cropped;Google Nexus 5;Google_Nexus_5X;0.9312838;0.932934;Na
+surf;cropped;Google Nexus 5;Nexus_6_API_25;0.9506264;0.9414617;Na
+surf;cropped;Google Nexus 5;Nexus_6P_API_25;0.9453764;0.9442532;Na
+surf;cropped;Google Nexus 5;Nexus_S_API;0.6920052;0.9074479;Na
+surf;cropped;Google Nexus 5;Pixel_2_API_25;0.9435862;0.9454787;Na
+surf;cropped;Google Nexus 5;Pixel_2_XL_API_25;0.937963;0.9453915;Na
+surf;cropped;Google Nexus 5;Pixel_3_API_25;0.9540315;0.9400617;Na
+surf;cropped;Google Nexus 5;Pixel_3_XL_API_25;0.9399304;0.9316074;Na
+surf;cropped;Google Nexus 5;Pixel_3a_API_25;0.9398962;0.9281394;Na
+surf;cropped;Google Nexus 5;Pixel_3a_XL_API_25;0.9434034;0.9292372;Na
+surf;cropped;Google Nexus 5;Pixel_API_25;0.8390348;0.9394894;Na
+surf;cropped;Google Nexus 5;Pixel_XL_API_25;0.9448964;0.9446266;Na
+surf;cropped;Nexus_S_API;Google Nexus 5;0.846371;0.8785947;Na
+surf;cropped;Nexus_S_API;Google_Nexus_4;0.8123204;0.8666266;Na
+surf;cropped;Nexus_S_API;Google_Nexus_5X;0.8353278;0.8714883;Na
+surf;cropped;Nexus_S_API;Nexus_6_API_25;0.8037739;0.8654489;Na
+surf;cropped;Nexus_S_API;Nexus_6P_API_25;0.7955042;0.8759489;Na
+surf;cropped;Nexus_S_API;Pixel_2_API_25;0.8444273;0.8980074;Na
+surf;cropped;Nexus_S_API;Pixel_2_XL_API_25;0.7770189;0.8866149;Na
+surf;cropped;Nexus_S_API;Pixel_3_API_25;0.8582451;0.8692074;Na
+surf;cropped;Nexus_S_API;Pixel_3_XL_API_25;0.7681948;0.8412106;Na
+surf;cropped;Nexus_S_API;Pixel_3a_API_25;0.8251764;0.8692915;Na
+surf;cropped;Nexus_S_API;Pixel_3a_XL_API_25;0.8468802;0.8627457;Na
+surf;cropped;Nexus_S_API;Pixel_API_25;0.8177562;0.8725404;Na
+surf;cropped;Nexus_S_API;Pixel_XL_API_25;0.7746325;0.8614787;Na
+surf;cropped;Pixel_3_XL_API_25;Google Nexus 5;0.9047222;0.9414149;Na
+surf;cropped;Pixel_3_XL_API_25;Google_Nexus_4;0.7977778;0.9364415;Na
+surf;cropped;Pixel_3_XL_API_25;Google_Nexus_5X;0.9094921;0.9487202;Na
+surf;cropped;Pixel_3_XL_API_25;Nexus_6_API_25;0.9470089;0.9408936;Na
+surf;cropped;Pixel_3_XL_API_25;Nexus_6P_API_25;0.9457501;0.9409181;Na
+surf;cropped;Pixel_3_XL_API_25;Nexus_S_API;0.6258301;0.9057883;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_2_API_25;0.8889539;0.9415106;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_2_XL_API_25;0.962582;0.9403426;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_3_API_25;0.8939339;0.9339926;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_3a_API_25;0.9126678;0.943583;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_3a_XL_API_25;0.9076763;0.9336032;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_API_25;0.8165944;0.9372723;Na
+surf;cropped;Pixel_3_XL_API_25;Pixel_XL_API_25;0.9487517;0.9425819;Na
+surf;fullscreen;Google Nexus 5;Google_Nexus_4;0.9111879;0.9236436;Na
+surf;fullscreen;Google Nexus 5;Google_Nexus_5X;0.933283;0.9096713;Na
+surf;fullscreen;Google Nexus 5;Nexus_6_API_25;0.9668495;0.9237926;Na
+surf;fullscreen;Google Nexus 5;Nexus_6P_API_25;0.9639102;0.9317245;Na
+surf;fullscreen;Google Nexus 5;Nexus_S_API;0.8179613;0.9202085;Na
+surf;fullscreen;Google Nexus 5;Pixel_2_API_25;0.9422962;0.9420383;Na
+surf;fullscreen;Google Nexus 5;Pixel_2_XL_API_25;0.9509785;0.8901617;Na
+surf;fullscreen;Google Nexus 5;Pixel_3_API_25;0.9466802;0.9415128;Na
+surf;fullscreen;Google Nexus 5;Pixel_3_XL_API_25;0.9560713;0.8911596;Na
+surf;fullscreen;Google Nexus 5;Pixel_3a_API_25;0.9369209;0.9288096;Na
+surf;fullscreen;Google Nexus 5;Pixel_3a_XL_API_25;0.943745;0.9117574;Na
+surf;fullscreen;Google Nexus 5;Pixel_API_25;0.9374611;0.9503202;Na
+surf;fullscreen;Google Nexus 5;Pixel_XL_API_25;0.9630608;0.9230223;Na
+surf;fullscreen;Nexus_S_API;Google Nexus 5;0.9252206;0.884316;Na
+surf;fullscreen;Nexus_S_API;Google_Nexus_4;0.8995663;0.8905351;Na
+surf;fullscreen;Nexus_S_API;Google_Nexus_5X;0.8958853;0.8252777;Na
+surf;fullscreen;Nexus_S_API;Nexus_6_API_25;0.9093607;0.7775851;Na
+surf;fullscreen;Nexus_S_API;Nexus_6P_API_25;0.9155191;0.7972596;Na
+surf;fullscreen;Nexus_S_API;Pixel_2_API_25;0.9029729;0.8363074;Na
+surf;fullscreen;Nexus_S_API;Pixel_2_XL_API_25;0.8954383;0.7700574;Na
+surf;fullscreen;Nexus_S_API;Pixel_3_API_25;0.8867619;0.8335319;Na
+surf;fullscreen;Nexus_S_API;Pixel_3_XL_API_25;0.9041592;0.7647904;Na
+surf;fullscreen;Nexus_S_API;Pixel_3a_API_25;0.8935944;0.8095532;Na
+surf;fullscreen;Nexus_S_API;Pixel_3a_XL_API_25;0.8995637;0.817366;Na
+surf;fullscreen;Nexus_S_API;Pixel_API_25;0.88914;0.8888436;Na
+surf;fullscreen;Nexus_S_API;Pixel_XL_API_25;0.9127811;0.8025191;Na
+surf;fullscreen;Pixel_3_XL_API_25;Google Nexus 5;0.9488124;0.9088309;Na
+surf;fullscreen;Pixel_3_XL_API_25;Google_Nexus_4;0.8859839;0.8932;Na
+surf;fullscreen;Pixel_3_XL_API_25;Google_Nexus_5X;0.9362766;0.9482872;Na
+surf;fullscreen;Pixel_3_XL_API_25;Nexus_6_API_25;0.9680232;0.9343851;Na
+surf;fullscreen;Pixel_3_XL_API_25;Nexus_6P_API_25;0.9676043;0.933816;Na
+surf;fullscreen;Pixel_3_XL_API_25;Nexus_S_API;0.7143939;0.8585011;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_2_API_25;0.915256;0.915717;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_2_XL_API_25;0.990609;0.9735628;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_3_API_25;0.9451325;0.9382862;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_3a_API_25;0.9623873;0.951283;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_3a_XL_API_25;0.9402896;0.9325074;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_API_25;0.8939854;0.9284468;Na
+surf;fullscreen;Pixel_3_XL_API_25;Pixel_XL_API_25;0.9665245;0.9267021;
