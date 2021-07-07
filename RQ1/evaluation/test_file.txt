@@ -1,0 +1,1 @@
+Test1;App;Device1;Device2;com.pendasylla.client.android:id/ib_menuMore;android.widget.ImageButton;;AcsNote;450;50
