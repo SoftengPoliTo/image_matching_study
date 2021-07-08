@@ -602,8 +602,6 @@ class ViewHierarchy(object):
 
             ancestors = [node for node in element.iterancestors()]
             for i in ancestors:
-                if "menu_save" in i.attrib.__str__():
-                    print("find!")
                 str_tmp = str_tmp + "" + i.attrib.__str__().replace(i.attrib.get('bounds').__str__(), "").replace(
                     i.attrib.get('height').__str__(), "").replace(i.attrib.get('width').__str__(), "")
 
